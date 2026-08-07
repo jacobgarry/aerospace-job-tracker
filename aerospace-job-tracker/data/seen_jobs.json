@@ -1,1 +1,834 @@
-{}
+{
+  "00d7c680c08981539c34f5db2fdddb8264f4312898f517f460b16e4ffff8fed9": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Manufacturing and Quality Roles in Seattle",
+    "url": "https://jobs.boeing.com/bca"
+  },
+  "00e751312c3355f0d833fed1bd9de312beec0d78575ff870cd8895569252ec2e": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Explore careers with Boeing Phantom Works",
+    "url": "https://jobs.boeing.com/phantom-works-careers"
+  },
+  "01632e68da52b29716aa423b87c75059d7b1c6235a50309da44e849cea8c6921": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "From Interns to Innovators: Systems Engineers Blaze Paths to Success",
+    "url": "https://jobs.boeing.com/interns-to-innovators-space-launch-systems-engineers-blaze-paths-to-success"
+  },
+  "0417fbe58b05abcf5593caca79451aee3e8b09b5609bb209661850c9ad47bcd2": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Skip to Search Results",
+    "url": "https://careers.l3harris.com/en/search-jobs#search-results-list"
+  },
+  "0510c33de269f2fd78908b098ec4aba4c584582e92224afa79aab752c03a7fae": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Job Title Groups",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "051d3809334c034f1bf0062c2ffc1ca56e1929d24e61fd6d33643b7c618f6b54": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in South Korea",
+    "url": "https://jobs.boeing.com/boeing-in-korea"
+  },
+  "06530566023bfbcb544b6dea0be2bf13fc17e6e6c2ec96f8a7c63c882797bf6c": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Inside Boeing",
+    "url": "https://jobs.boeing.com/team-boeing-stories"
+  },
+  "0729d3102a75e22c3592ac77ced7ade471758d1413559b4a9eb87c64b7b811bc": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "View All Products",
+    "url": "https://www.lockheedmartin.com/en-us/products.html?domain=&capability=ai%2C&country="
+  },
+  "0b51ece16d7dd91eb77e0e642bbf2aea65ccbbc44be555179ba8958392d5b9db": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Autonomy & AI",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "0bddaefdc21d6b986e46f066a70e5b13b3da9c39243bfc5a015e21f6b8fe8e12": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in Washington, D.C.",
+    "url": "https://jobs.boeing.com/boeing-in-the-DC-metro"
+  },
+  "0dd7efd13ba0c8353df2d260316c838601f97deae51f01c1c4504e69ec0bc33e": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Career Area",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "0fbb31fb548af823988e0cebda39fc5d823e18124ab6474e346e1318f08322fe": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Jae\u2019s Early Fascination With Flight Led to a Role at Boeing",
+    "url": "https://jobs.boeing.com/Meet-Jae"
+  },
+  "105141250398dd76e11b1538e5a959e6a190395b3097dede98329f471bd35999": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in India",
+    "url": "https://jobs.boeing.com/boeing-in-india"
+  },
+  "144d9731e48a874fd254d30ffd6787780e461b9a83a98f115830ee51f50adef2": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Mechanical Engineer Associate / Lexington, KY Lexington, Kentucky Date Posted: 05/27/2026 Job ID: 729691BR",
+    "url": "https://www.lockheedmartinjobs.com/job/lexington/mechanical-engineer-associate-lexington-ky/694/95666303056"
+  },
+  "15472cdafb5a34349aa855ac5e1028cf8848191b4f00c1ff6f43627091d128eb": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Niyathi Gorantla | Sustainability Intern",
+    "url": "https://jobs.boeing.com/NiyathiGorantla"
+  },
+  "19571a260311e30ebd72eb8bbee49bb5a3ad57336c1046e5258035f10d222088": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "\u2018I encourage others to take this opportunity!\u2019",
+    "url": "https://jobs.boeing.com/meet-Vadym"
+  },
+  "218821e2cba1504f696737f45a3ecd8751bcb15a6669e72f77178e1a1fef736f": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Test and Evaluation Engineering Careers at Boeing",
+    "url": "https://jobs.boeing.com/test-engineering-careers"
+  },
+  "2841152f0387e8a57e99fc63690345fae69b0996a168e858804130f4cc9fc7f7": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Kariza, Composite Research Engineer",
+    "url": "https://youtu.be/zKmT5TohI6A"
+  },
+  "2aeb80d3b5f211135a219b800bded2e9c63777b11eab9eb860c13b5cc66bcb54": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Circuit Design Engineer IV, Secret Clearance",
+    "url": "https://www.lockheedmartinjobs.com/job/littleton/circuit-design-engineer-iv-secret-clearance/694/93209915392"
+  },
+  "2b657f4eb595d00e29ade39ee95dee56775a89a41d60e52d467c1029af1b4b1f": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Systems Engineering Careers at Boeing",
+    "url": "https://jobs.boeing.com/systems-engineering-careers"
+  },
+  "2c591b1e8c7a234a5ddaf10d20b925d95ef5812826168a159f84f36a1c95d3cc": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "From excavating bones to building Boeing systems",
+    "url": "https://jobs.boeing.com/Meet-Tori"
+  },
+  "2d58390fc414fdb0d3913aa62f54977a57ee0ea31b14f63baf62d137080f407b": {
+    "company": "Shield AI",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://shield.ai/careers/",
+    "title": "[Hivemind enterprise] Explore Autonomy Development",
+    "url": "https://shield.ai/careers/"
+  },
+  "2e38ebbd1b94f2322a0ab712707dce950f7bb5029b5ca44ab1f6da4b0f1a2ed6": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Job code/Title",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "309c7489ce35f8d1df3e0b0c59d28dc3d05ed3f3039ec4d0abc80dcdf47def2d": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Program",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "3821c315313ed9b7b256b239508e8cfcfd932c445cc35b9e42274e6249c23149": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Skip to Search Results",
+    "url": "https://jobs.boeing.com/search-jobs#search-results-list"
+  },
+  "382cf567a32f25eed37801f9b4953b8b9c4f15fcc3a38b853ea4eadc80bb66fe": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in South Carolina",
+    "url": "https://jobs.boeing.com/boeing-in-south-carolina"
+  },
+  "3ec68661ee2c216df849ae538c5cf6ac94c9b67bdce2fd7a9134de8b5c00219e": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Security clearance levels for aerospace & defense jobs explained",
+    "url": "https://jobs.boeing.com/security-clearance-levels-aerospace-defense-job"
+  },
+  "3f5064ee3008246929fb01357f5db63d98ecf74cff679079d369370b91ef7790": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "A passion for propulsion helps fuel the future of flight",
+    "url": "https://jobs.boeing.com/Dominic-B"
+  },
+  "4005ded24f0521267ed4cc0ce030d1c67ae936cc6c90fa1b3337613e07d5e104": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "STAR.OS Integration Framework",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning/star-os-ai-integration-framework.html"
+  },
+  "4088565e6d8c6fe6ccc943e44dfcfeb86ee1584e83afda45e9891b57fdb11406": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Maritime Systems",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/maritime-systems.html"
+  },
+  "42ad1363f0640ddfe94cb91e13d26a55b2020b03b8b7f3a0aa922fe60f7499d2": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "DOWNLOAD TRANSCRIPT",
+    "url": "https://tbcdn.talentbrew.com/company/694/transcripts/newtranscripts/"
+  },
+  "447c084b04006741904cfa8d2e665de5898c391d10aa6a1fac91cfd5c6525c51": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Ability to Work Remotely",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "4c44bcd5a84602cc8196dd3465b7763eb456ab0c0b3abee9c3051aa146ce1638": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Manufacturing Careers",
+    "url": "https://jobs.boeing.com/manufacturing-careers"
+  },
+  "4e2ecec5ae1ac27ac04dad4072a71032fdd2ebd7ee9f6828d482e01709545544": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Space",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "4f5874a900a0adcb6635fcd81e7c6763f846a818cea9579340a24cdad95a65b7": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "privacy policy (this content opens in new window)",
+    "url": "https://www.l3harris.com/privacy-policy"
+  },
+  "50e8cbdf39f59a248c4f35a5272f429d71f254b8de4272a16a3d8b6587c437b7": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Meet Bo, E-7A Wedgetail Systems Engineer",
+    "url": "https://jobs.boeing.com/Meet-Bo"
+  },
+  "53c9b0c0640d270bed7d25952f755275a4bf85632e4e2292e25372f9cae31b4b": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Finance Careers at Boeing",
+    "url": "https://jobs.boeing.com/finance-careers"
+  },
+  "542e3dc3637fcc0ccb91a7a679c8169bdae5fa0b0585653b968beab388a49707": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Circuit Design Engineer IV, Secret Clearance Littleton, Colorado Date Posted: 08/05/2026 Job ID: 722183BR",
+    "url": "https://www.lockheedmartinjobs.com/job/littleton/circuit-design-engineer-iv-secret-clearance/694/93209915392"
+  },
+  "54be123e3eb3785dcce4222105164634432803f81a7b993176255fffbd7690e0": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "AI creator changes how autonomous systems work",
+    "url": "https://jobs.boeing.com/meet-Amani"
+  },
+  "558344a6f74de270a4374549056ebb516cd695dee74e5efd0f3bc6d8cbb05507": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in Japan",
+    "url": "https://jobs.boeing.com/boeing-in-japan"
+  },
+  "5c382bf8b6c0b42827709578f8de5eb3804c6f10c5ef3524e075ca3326336fb4": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "All-Domain Operations",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "5f879c1c52bfc205325c2bbc15b9f726008dd20fbec598c88947d56716da7391": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Transformative Technology",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "628e18564d99a2f696fd74ef026e87d023747453042a7e5d1dbe4e0908b6958e": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Divisions",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "63b86ec6aee5c7966cd7f1122e5312a0cc7c9c3cf7efb1622e696f4455bdff35": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Business Area",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "663bafa0d1b7b184275288b378e0368c9639a608c59da6d43e90e041edd95b27": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "\u201cYou can have five careers at Boeing.\u201d",
+    "url": "https://jobs.boeing.com/meet-emily-flight-test-engineer"
+  },
+  "68241bff9c702b8cba49469f520404e60b24d1ff544c35d8c78b556fcc87f24d": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Accelerating Transformation",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/accelerating-transformation.html"
+  },
+  "6a8d88a0b2b1b9f45aabc160cf52f7aceb7e1bebe66f0e74d9a9271f2b54826c": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Aim High: Meet Kristine, Space Launch Systems Engineer",
+    "url": "https://jobs.boeing.com/Kristine-Ramos-Space-Launch-Engineer"
+  },
+  "6c80fdf426178deab4ccf456d38f0badd26b97e7d3c65d9f8ac3296f3c84312b": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Mechanical Engineer Lexington, Kentucky Date Posted: 05/26/2026 Job ID: 730125BR",
+    "url": "https://www.lockheedmartinjobs.com/job/lexington/mechanical-engineer/694/95644274096"
+  },
+  "71ac7299dbe98ed74875786b31c61b509c5f3859dac6cfe9756b889214dd95e7": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "FAQs on applying for jobs that require a security clearance.",
+    "url": "https://jobs.boeing.com/faq-security-clearance-jobs"
+  },
+  "7271e2c0d38f694edcc0a3cd6ace7f6e57d452936b3d8a676b58a7e24d802497": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Learn more about information technology",
+    "url": "https://jobs.boeing.com/information-technology-careers"
+  },
+  "73a6982bec6d176615a61ea06c4fc2f8d754c6338696d9262fdab0f28adc016a": {
+    "company": "Shield AI",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://shield.ai/careers/",
+    "title": "Back to options",
+    "url": "https://shield.ai/careers/"
+  },
+  "73fce6ab8703e865346184cd947fdbe4dce985ffaadd74eab888ddaa5aa669dc": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Cybersecurity Careers at Boeing",
+    "url": "https://jobs.boeing.com/cybersecurity-careers"
+  },
+  "75a28347a57931c9f1563d4fa1a78f340c8461a817fa371a194bf9744e351dfb": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Denise and Kay, Materials Engineers",
+    "url": "https://www.youtube.com/watch?v=AHATf5bBU0Y"
+  },
+  "8156b05f671222bfc69d73228372efa66b2d318aa234a97e09815694e31367e9": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Flight Sciences Engineer \u2013 Guidance, Navigation, and Control (GNC) Onsite - Relocation Assistance Available",
+    "url": "https://jobs.boeing.com/job/bingen/flight-sciences-engineer-guidance-navigation-and-control-gnc-onsite-relocation-assistance-available/185/98862534688"
+  },
+  "84db136ba3ed3b5193ac1dafa22c0a12a792dead588b7fca255bfedd29dae061": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Security Clearance",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "85f281c8ebc7043d0f3701a5da73308b1ae4fb38746b20ce0be1ca1fa4c422eb": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Mission Integration",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/mission-integration.html"
+  },
+  "881c17aace5a55255d242693f6b3b49d201daf59957050f0fe467446a3a99dcc": {
+    "company": "Northrop Grumman",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.northropgrumman.com/careers",
+    "title": "Careers",
+    "url": "https://www.northropgrumman.com/careers"
+  },
+  "8a00af75eda3797c5eef4343849027bae44adf79550bc6dabbd4904f9992bf7f": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Mechanical Engineer",
+    "url": "https://www.lockheedmartinjobs.com/job/lexington/mechanical-engineer/694/95644274096"
+  },
+  "8c5c9aa34ebb2db50fd198cc79f304abaab8f30bac00f940dc3d5140fda985c6": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Sustainment & Training Systems",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "8d89c0556ab813b21942725c7f1efe076153bd0541074a28252603270d64b315": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Adrian Sosa | Structures Design Engineer Intern",
+    "url": "https://jobs.boeing.com/AdrianSosa"
+  },
+  "90d95854ff99fd8e143f117df36603cf3a3d328d4e6b9129cf919bf6092ecae3": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Autonomy",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/autonomous-unmanned-systems.html"
+  },
+  "93c9abc1ec420f26ae6359390e5e5922259904fdfdb102e57eb7dc48e6308879": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Tristan Crumley | Design Engineer Intern",
+    "url": "https://jobs.boeing.com/TristanCrumley"
+  },
+  "96febecdf8a01dd763b658546c695cd69d47638a707936d660d9d1562957b40d": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Supply Chain Internships",
+    "url": "https://jobs.boeing.com/supply-chain-internships"
+  },
+  "99a4c5fd6b0ec43887d8bc3e7ab518c55b92a6306002474f2f17fce0cc467736": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Associate, Systems Engineering Engineering|New, Grads Londonderry, NH",
+    "url": "https://careers.l3harris.com/en/job/londonderry/associate-systems-engineering/4832/98852972144"
+  },
+  "9bbb6266cd3be1a33505043b91f877716e8383cbac1e459dec3a8159bde96378": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "City",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "9c00a2b51fe45a50abf5681fa2afec33a07abe83284e88c2f0831a1f57cab524": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Business Operations Internships",
+    "url": "https://jobs.boeing.com/business-operations-internships"
+  },
+  "9e3c80bcb62193233a62c838a07918996bce933f57ddfa8f01876ad00f00a96a": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Systems Engineering Internships",
+    "url": "https://jobs.boeing.com/systems-engineering-internships"
+  },
+  "9f2e4f10d2fe2688334d0a4eb513275fd3380bae9b67d02cbcdcaa1946be54ab": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Human Resources Internships",
+    "url": "https://jobs.boeing.com/human-resources-internships"
+  },
+  "a04a481d5d6155f486c4356f826788e3cb64699610753287885dba135cfa8b5d": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "New Grads & Interns Become part of our next generation of innovators and leaders",
+    "url": "https://careers.l3harris.com/new-grads-and-interns"
+  },
+  "a449bb3ecf4007bc1790f23ec0478bbdf89d999ec2711410e6ace9410295da90": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Giving Back to the Country She Loves",
+    "url": "https://jobs.boeing.com/Meet-Romina"
+  },
+  "a531923c1f87244bdc2ff5a131609749812bab9ae53aa19df577a594207d28f3": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Atira Sarat | Sustainability Innovation Research Intern",
+    "url": "https://jobs.boeing.com/meet-Atira"
+  },
+  "a53d05a351f8d6179c7a38991bc667f943799b6901a009407be76122cd6fbf27": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "High-demand jobs for people with security clearances",
+    "url": "https://jobs.boeing.com/top-industries-hiring-security-cleared-professionals"
+  },
+  "a54b920067dc09cd5a932fe73510aca2c1c567b03e323f503b449ae99c75c172": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "It\u2019s No Ordinary 9 to 5 For Manufacturing Engineer Lee",
+    "url": "https://jobs.boeing.com/Meet-Lee"
+  },
+  "a7e09f2a46b2a67155034050ea20559bfa258d0d497d758e71e708194a27e454": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Artificial Intelligence",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning.html"
+  },
+  "a816158d68e1df925c6af91c3631add3d3458d2ce2f8757b30e0bcc986750aaa": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Match your skills to aerospace manufacturing careers",
+    "url": "https://jobs.boeing.com/manufacturing-job-skill-match"
+  },
+  "a85b150c9f9fa036cb179a45c5e29cea0f272939042cf7c2cbeb23b138284cff": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Meet OB, Starliner Spacecraft Technician",
+    "url": "https://jobs.boeing.com/Boeing-Starliner-Spacecraft-Technician"
+  },
+  "a8ebafdc6c97185daabd010baa1153d53e3031ddcfba54fd768a6c6a84e547ff": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "'It's hard to describe the thrill of it'",
+    "url": "https://jobs.boeing.com/Meet-TyQuish"
+  },
+  "a9bd107a7dc26a56cf707aed29b6df1e3d8277f10457afadd0f66208869568ce": {
+    "company": "Shield AI",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://shield.ai/careers/",
+    "title": "[HIVEMIND SOLUTIONS] Your Platform, Our Autonomy",
+    "url": "https://shield.ai/careers/"
+  },
+  "adbb2a57a0a39173549095a61c0bc1b480ba6106b23797a0ea7fb373ba6c4ae7": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Job Class",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "b2b72a828fca6c3305277f335d0ee56a60b5c80b6a29d73f51df0c205a0fff14": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in Alabama",
+    "url": "https://jobs.boeing.com/boeing-in-alabama"
+  },
+  "bab1e6b1f43d55add7bea07eebc1261f35589224a41d6abb5310403d8b343ef9": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "'We are finding ways to inspire more people around us'",
+    "url": "https://jobs.boeing.com/meet-nic-b"
+  },
+  "bc7142c94bf666a13a2816792c44c0be27ed4d0cb8c37f1160fc8c18bd6512a2": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Skip to main content",
+    "url": "https://careers.l3harris.com/en/search-jobs#content"
+  },
+  "c85645a2b1d2a66e3490d7094dc51cfc83c7d5c0cbf1d4050042286800b56e05": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Manufacturing in North Charleston",
+    "url": "https://jobs.boeing.com/manufacturing-jobs-north-charleston"
+  },
+  "c9689dca98c9ff0374e50600bfc2a412698c5166dee1d97a8450beb24ceb3882": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Department",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "cb2b342e5c234c90ef2ea5adcdd3f0c032623c958e314286ab87150c5cf30690": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Products by Domain",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "ccf567bd606f01814dd78d614f26f3bbf33f8408ec5edd7a5f74c00b93f3eae2": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Deterrence Capabilities",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "cd549e5acb55f869518ebfd4924e6fcf30be6f895167ed103e1b345adab3d426": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Experience Level",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "cf09b432f522f61adb5aa30e8b29fd6b3841ba84cb7656e55cc0bb7757b201de": {
+    "company": "L3Harris",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Skip to Search Filters",
+    "url": "https://careers.l3harris.com/en/search-jobs#search-filters"
+  },
+  "d6ba07d9cf51c3160cc8b2c981d82408ac3c080cc6d7f85142a67b1bb2e221e2": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Skip to main content",
+    "url": "https://jobs.boeing.com/search-jobs#content"
+  },
+  "db76a007df58b152b7038feb5df6d093bbe894df652a00ae8739c14eee5e50c1": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Country",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "de46144dccfb1b7d060f1b13be2fedcd951d55d28236852075cf94ec577ffbea": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Flight Test Operator 3",
+    "url": "https://jobs.boeing.com/job/bingen/flight-test-operator-3/185/98862534480"
+  },
+  "e23565db59c7a60c8ae6faee59e8674ac8339b4c9ec0be1d0238d60c7ced696b": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Skip to Search Filters",
+    "url": "https://jobs.boeing.com/search-jobs#search-filters"
+  },
+  "e2e6041f6e4bd39055a2cd0abbcc7825171ebd5c20ad5891e0fe56356f6830ed": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Job Query",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "e498180bcbd6abb751cee8a8f936f556876d076e7a5671b5f5d77bc4bf2a6abf": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "VanityFacet",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "e89ec8c20ae1715ad09083cb78887ac7abe9ca72e4dedc9f3bf60fd691331e03": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "AI Fight Club\u2122",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning/ai-fight-club.html"
+  },
+  "ec53391bfd9a18f1e156fc6e0c429697a99b68d5b29d5e3c1feee80b6abff2ee": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Learn more about engineering",
+    "url": "https://jobs.boeing.com/engineering-careers"
+  },
+  "eebaf97d8fc7d5a74395fb1abaafd987d89613c92ce9dcb853e2a2b1ee96eb9a": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Eva Strang | Strategy Analyst Intern",
+    "url": "https://jobs.boeing.com/EvaStrang"
+  },
+  "f2e35ee8cf277fe1f351fb53dbc5cad17321935d04ceb91a95be87b8dbf3c39a": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Boeing in California",
+    "url": "https://jobs.boeing.com/boeing-in-california"
+  },
+  "f31c08fea2abaf7f411ae1c37afc745cb33f0a33e68af10c704edccd2decb26f": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Relocation Available",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "f7b51906422dfed8af3341c3aa2c15de90a0b2163d08619050fc289cc859080f": {
+    "company": "Northrop Grumman",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.northropgrumman.com/careers",
+    "title": "Students and Entry Level",
+    "url": "https://www.northropgrumman.com/careers/students-and-entry-level-careers-start-a-career-of-purpose"
+  },
+  "f828208ce4bcc7a265b02039af7cf45de558be9ec907c2efb3484020a55472dc": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Aircraft",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "fae1382ef5a0e13dfda1cce3fd587410e59ac445509a990fea674df886d46b68": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "Cyber",
+    "url": "https://www.lockheedmartin.com/en-us/capabilities/cyber.html"
+  },
+  "fdac8529cc6122db129aa1d649cf51de6597be4bf71b973b49d30232c9728ace": {
+    "company": "Lockheed Martin",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
+    "title": "State",
+    "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "ff73e2e1cd5bbc8f109ad7ae38aaa38d558834babb4dedfb4cf13a46d266922b": {
+    "company": "Boeing",
+    "first_seen": "2026-08-07T01:52:13.748434+00:00",
+    "last_seen": "2026-08-07T01:52:13.748434+00:00",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Finance Internships",
+    "url": "https://jobs.boeing.com/finance-internships"
+  }
+}
