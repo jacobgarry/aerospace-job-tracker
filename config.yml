@@ -1,0 +1,60 @@
+keywords:
+  include:
+    - aerospace
+    - aeronautical
+    - flight test
+    - systems engineer
+    - controls engineer
+    - gnc
+    - guidance navigation control
+    - avionics
+    - mechanical engineer
+    - propulsion
+    - spacecraft
+    - satellite
+    - uav
+    - autonomy
+    - embedded
+    - new grad
+    - entry level
+    - engineer i
+    - associate engineer
+    - rotational program
+  exclude:
+    - senior
+    - principal
+    - staff engineer
+    - manager
+    - director
+    - phd required
+    - 8+ years
+    - 10+ years
+
+# Add or replace URLs with specific search-result pages from each employer.
+# Search pages work better than general career homepages.
+sources:
+  - company: Lockheed Martin
+    url: https://www.lockheedmartinjobs.com/search-jobs
+  - company: Northrop Grumman
+    url: https://www.northropgrumman.com/careers
+  - company: RTX
+    url: https://careers.rtx.com/global/en/search-results
+  - company: Boeing
+    url: https://jobs.boeing.com/search-jobs
+  - company: L3Harris
+    url: https://careers.l3harris.com/search-jobs
+  - company: Sierra Space
+    url: https://www.sierraspace.com/careers/
+  - company: Blue Origin
+    url: https://www.blueorigin.com/careers/search
+  - company: Shield AI
+    url: https://shield.ai/careers/
+  - company: Anduril
+    url: https://www.anduril.com/open-roles/
+  - company: General Atomics
+    url: https://www.ga-careers.com/search-jobs
+
+settings:
+  request_timeout_seconds: 25
+  maximum_links_per_source: 250
+  issue_title_prefix: "Weekly aerospace job openings"

@@ -1,0 +1,58 @@
+name: Weekly Aerospace Job Tracker
+
+on:
+  schedule:
+    # Sundays at 9:00 AM Eastern during daylight saving time (13:00 UTC).
+    - cron: "0 13 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: aerospace-job-tracker/requirements.txt
+
+      - name: Install dependencies
+        working-directory: aerospace-job-tracker
+        run: pip install -r requirements.txt
+
+      - name: Scan career pages
+        working-directory: aerospace-job-tracker
+        run: python src/job_tracker.py
+
+      - name: Commit tracker state and latest report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add aerospace-job-tracker/data aerospace-job-tracker/reports/latest.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update weekly aerospace job report"
+            git push
+          fi
+
+      - name: Open an issue when new jobs are found
+        working-directory: aerospace-job-tracker
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COUNT=$(python -c "import json; print(len(json.load(open('data/new_jobs.json'))))")
+          if [ "$COUNT" -gt 0 ]; then
+            DATE=$(date -u +%Y-%m-%d)
+            gh issue create \
+              --title "Weekly aerospace job openings — $DATE" \
+              --body-file reports/latest.md
+          else
+            echo "No new matches; no issue created."
+          fi
