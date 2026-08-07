@@ -55,6 +55,74 @@ def keyword_match(text: str, include: list[str], exclude: list[str]) -> bool:
     )
 
 
+JOB_HOSTS = (
+    "boards.greenhouse.io", "job-boards.greenhouse.io", "jobs.lever.co",
+    "myworkdayjobs.com", "smartrecruiters.com", "icims.com", "ashbyhq.com",
+)
+JOB_URL_RE = re.compile(
+    r"(?:^|/)(?:job|jobs|position|positions|opening|openings|role|roles|"
+    r"requisition|req)(?:/|-|$)|[?&](?:job_?id|gh_jid|req_?id|requisitionid)=",
+    re.IGNORECASE,
+)
+NON_JOB_TITLE_RE = re.compile(
+    r"\b(?:careers?|jobs?|opportunities|join (?:our|the) team|search|learn more|"
+    r"read more|view all|students?|internships?|benefits|culture|life at|"
+    r"talent community|job alerts?|engineering careers?)\b",
+    re.IGNORECASE,
+)
+NON_JOB_URL_RE = re.compile(
+    r"(?:/blog/|/news/|/stories/|/article/|/events?/|/benefits/|/culture/|"
+    r"/about/|/contact/|/students?/|/talent-community|/job-alerts?)",
+    re.IGNORECASE,
+)
+ENGINEERING_ROLE_RE = re.compile(
+    r"\b(?:engineer(?:ing)?|aerodynamicist|flight sciences?)\b", re.IGNORECASE
+)
+SENIORITY_RE = re.compile(
+    r"\b(?:sr\.?|senior|principal|staff|lead|chief|manager|director|"
+    r"head|vice president|vp|engineer(?:ing)?\s+(?:iv|v|[4-9]))\b",
+    re.IGNORECASE,
+)
+
+
+def is_job_detail_url(url: str, source_url: str) -> bool:
+    """Require a detail-page-shaped URL, not a careers/search/content page."""
+    parsed = urlparse(url)
+    if NON_JOB_URL_RE.search(parsed.path) or url.rstrip("/") == source_url.rstrip("/"):
+        return False
+    host = parsed.netloc.lower()
+    if any(job_host in host for job_host in JOB_HOSTS):
+        return len([part for part in parsed.path.split("/") if part]) >= 2
+    return bool(JOB_URL_RE.search(f"{parsed.path}?{parsed.query}"))
+
+
+def is_relevant_job_title(title: str, include: list[str], exclude: list[str]) -> bool:
+    """Classify the link title; surrounding marketing copy is not job evidence."""
+    normalized = normalize_space(title).lower()
+    return (
+        bool(ENGINEERING_ROLE_RE.search(normalized))
+        and not NON_JOB_TITLE_RE.search(normalized)
+        and not SENIORITY_RE.search(normalized)
+        and keyword_match(normalized, include, exclude)
+    )
+
+
+def priority_score(title: str) -> int:
+    """Put explicit early-career roles first, followed by target disciplines."""
+    value = title.lower()
+    score = 0
+    if re.search(r"\b(?:new grad(?:uate)?|entry[ -]level|early career|engineer i|"
+                 r"associate engineer|university grad(?:uate)?|rotational)\b", value):
+        score += 100
+    priorities = (
+        "aerospace", "mechanical", "systems", "controls", "gnc", "guidance",
+        "navigation", "flight test", "uas", "uav", "autonomy", "propulsion",
+        "structures", "structural", "integration",
+    )
+    score += 10 * sum(term in value for term in priorities)
+    return score
+
+
 def extract_jobs(
     company: str,
     source_url: str,
@@ -72,12 +140,9 @@ def extract_jobs(
         if not title or len(title) < 4 or not is_http_url(href):
             continue
 
-        context = title
-        parent = anchor.find_parent(["li", "article", "div"])
-        if parent:
-            context = normalize_space(parent.get_text(" ", strip=True))[:800]
-
-        if not keyword_match(context, include, exclude):
+        if not is_relevant_job_title(title, include, exclude):
+            continue
+        if not is_job_detail_url(href, source_url):
             continue
 
         job = Job(company=company, title=title[:180], url=href, source_url=source_url)
@@ -111,7 +176,10 @@ def write_report(all_jobs: list[Job], new_jobs: list[Job], errors: list[str]) ->
 
     if new_jobs:
         lines.extend(["## New Matches", ""])
-        for job in sorted(new_jobs, key=lambda item: (item.company, item.title)):
+        for job in sorted(
+            new_jobs,
+            key=lambda item: (-priority_score(item.title), item.company, item.title),
+        ):
             lines.append(f"- **{job.company} — {job.title}**  ")
             lines.append(f"  [Open application]({job.url})")
         lines.append("")

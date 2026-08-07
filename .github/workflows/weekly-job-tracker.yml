@@ -28,6 +28,10 @@ jobs:
         working-directory: aerospace-job-tracker
         run: pip install -r requirements.txt
 
+      - name: Test job classification
+        working-directory: aerospace-job-tracker
+        run: python -m unittest discover -s tests -v
+
       - name: Scan career pages
         working-directory: aerospace-job-tracker
         run: python src/job_tracker.py
