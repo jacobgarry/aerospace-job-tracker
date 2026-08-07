@@ -44,6 +44,11 @@ keywords:
     - level v
     - engineer iv
     - engineer v
+    - 2026 early career
+    - 2026 starts
+    - intern
+    - internship
+    - co-op
 
 # Add or replace URLs with specific search-result pages from each employer.
 # Search pages work better than general career homepages.
@@ -54,18 +59,29 @@ sources:
     url: https://www.northropgrumman.com/careers
   - company: RTX
     url: https://careers.rtx.com/global/en/search-results
+    adapter: workday
+    api_url: https://globalhr.wd5.myworkdayjobs.com/wday/cxs/globalhr/REC_RTX_Ext_Gateway/jobs
+    base_url: https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/
   - company: Boeing
     url: https://jobs.boeing.com/search-jobs
   - company: L3Harris
     url: https://careers.l3harris.com/search-jobs
   - company: Sierra Space
     url: https://www.sierraspace.com/careers/
+    adapter: workday
+    api_url: https://sierraspace.wd1.myworkdayjobs.com/wday/cxs/sierraspace/Sierra_Space_External_Career_Site/jobs
+    base_url: https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/
   - company: Blue Origin
     url: https://www.blueorigin.com/careers/search
+    adapter: workday
+    api_url: https://blueorigin.wd5.myworkdayjobs.com/wday/cxs/blueorigin/BlueOrigin/jobs
+    base_url: https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/
   - company: Shield AI
     url: https://shield.ai/careers/
   - company: Anduril
     url: https://www.anduril.com/open-roles/
+    adapter: greenhouse
+    api_url: https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs
   - company: General Atomics
     url: https://www.ga-careers.com/search-jobs
 

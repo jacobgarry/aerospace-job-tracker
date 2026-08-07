@@ -21,8 +21,8 @@ NEW_JOBS_JSON = ROOT / "data" / "new_jobs.json"
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (compatible; AerospaceJobTracker/1.0; "
-        "+https://github.com/)"
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/127.0 Safari/537.36"
     )
 }
 
@@ -50,8 +50,15 @@ def is_http_url(url: str) -> bool:
 
 def keyword_match(text: str, include: list[str], exclude: list[str]) -> bool:
     haystack = text.lower()
-    return any(term.lower() in haystack for term in include) and not any(
-        term.lower() in haystack for term in exclude
+
+    def contains(term: str) -> bool:
+        escaped = re.escape(term.lower())
+        prefix = r"(?<!\w)" if term and term[0].isalnum() else ""
+        suffix = r"(?!\w)" if term and term[-1].isalnum() else ""
+        return bool(re.search(f"{prefix}{escaped}{suffix}", haystack))
+
+    return any(contains(term) for term in include) and not any(
+        contains(term) for term in exclude
     )
 
 
@@ -65,7 +72,7 @@ JOB_URL_RE = re.compile(
     re.IGNORECASE,
 )
 NON_JOB_TITLE_RE = re.compile(
-    r"\b(?:careers?|jobs?|opportunities|join (?:our|the) team|search|learn more|"
+    r"\b(?:opportunities|join (?:our|the) team|search|learn more|"
     r"read more|view all|students?|internships?|benefits|culture|life at|"
     r"talent community|job alerts?|engineering careers?)\b",
     re.IGNORECASE,
@@ -80,7 +87,7 @@ ENGINEERING_ROLE_RE = re.compile(
 )
 SENIORITY_RE = re.compile(
     r"\b(?:sr\.?|senior|principal|staff|lead|chief|manager|director|"
-    r"head|vice president|vp|engineer(?:ing)?\s+(?:iv|v|[4-9]))\b",
+    r"head|vice president|vp|engineer(?:ing)?\s+(?:ii|iii|iv|v|[2-9]))\b",
     re.IGNORECASE,
 )
 
@@ -153,6 +160,89 @@ def extract_jobs(
     return list(jobs.values())
 
 
+def fetch_workday_jobs(
+    session: requests.Session,
+    source: dict,
+    include: list[str],
+    exclude: list[str],
+    limit: int,
+    timeout: int,
+) -> list[Job]:
+    """Read a public Workday job feed instead of a branded, bot-blocked page."""
+    jobs: dict[str, Job] = {}
+    offset = 0
+    page_size = 20  # Workday rejects larger page sizes.
+
+    while offset < limit:
+        response = session.post(
+            source["api_url"],
+            json={
+                "appliedFacets": {},
+                "limit": page_size,
+                "offset": offset,
+                "searchText": "",
+            },
+            timeout=timeout,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        postings = payload.get("jobPostings", [])
+        if not postings:
+            break
+
+        for posting in postings:
+            title = normalize_space(str(posting.get("title", "")))
+            path = str(posting.get("externalPath", ""))
+            url = urljoin(source["base_url"], path)
+            if not title or not is_relevant_job_title(title, include, exclude):
+                continue
+            if not is_job_detail_url(url, source["url"]):
+                continue
+            job = Job(
+                company=source["company"],
+                title=title[:180],
+                url=url,
+                source_url=source["url"],
+            )
+            jobs[job.key] = job
+
+        offset += len(postings)
+        total = min(int(payload.get("total", offset)), limit)
+        if offset >= total:
+            break
+
+    return list(jobs.values())
+
+
+def fetch_greenhouse_jobs(
+    session: requests.Session,
+    source: dict,
+    include: list[str],
+    exclude: list[str],
+    limit: int,
+    timeout: int,
+) -> list[Job]:
+    """Read titles and application URLs from a public Greenhouse board feed."""
+    response = session.get(source["api_url"], timeout=timeout)
+    response.raise_for_status()
+    jobs: dict[str, Job] = {}
+    for posting in response.json().get("jobs", [])[:limit]:
+        title = normalize_space(str(posting.get("title", "")))
+        url = str(posting.get("absolute_url", ""))
+        if not title or not is_relevant_job_title(title, include, exclude):
+            continue
+        if not is_job_detail_url(url, source["url"]):
+            continue
+        job = Job(
+            company=source["company"],
+            title=title[:180],
+            url=url,
+            source_url=source["url"],
+        )
+        jobs[job.key] = job
+    return list(jobs.values())
+
+
 def load_seen() -> dict[str, dict]:
     if not SEEN_PATH.exists():
         return {}
@@ -221,12 +311,27 @@ def main() -> int:
         company = source["company"]
         url = source["url"]
         try:
-            response = session.get(url, timeout=timeout, allow_redirects=True)
-            response.raise_for_status()
-            current_jobs.extend(
-                extract_jobs(company, response.url, response.text, include, exclude, limit)
-            )
-        except requests.RequestException as exc:
+            if source.get("adapter") == "workday":
+                current_jobs.extend(
+                    fetch_workday_jobs(
+                        session, source, include, exclude, limit, timeout
+                    )
+                )
+            elif source.get("adapter") == "greenhouse":
+                current_jobs.extend(
+                    fetch_greenhouse_jobs(
+                        session, source, include, exclude, limit, timeout
+                    )
+                )
+            else:
+                response = session.get(url, timeout=timeout, allow_redirects=True)
+                response.raise_for_status()
+                current_jobs.extend(
+                    extract_jobs(
+                        company, response.url, response.text, include, exclude, limit
+                    )
+                )
+        except (requests.RequestException, ValueError) as exc:
             errors.append(f"**{company}:** {type(exc).__name__} while checking `{url}`")
 
     deduped = {job.key: job for job in current_jobs}
