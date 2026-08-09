@@ -34,7 +34,7 @@
   "04eb46bbf3040cfc328a0208f354ec3bb424dc0db250f6bcacc9cf4562cba846": {
     "company": "Blue Origin",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.blueorigin.com/careers/search",
     "title": "Mechanical Engineer - TeraWave Customer Terminals",
     "url": "https://blueorigin.wd5.myworkdayjobs.com/job/Greater-Seattle-Area/Mechanical-Engineer----TeraWave-Customer-Terminals_R67572-1"
@@ -58,7 +58,7 @@
   "05e069e12543a8b00c83e6356aa81bd38ec437ae6cea2aa6c621f89be223d298": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Air Vehicle Systems Engineer, Hardware Verification, Integration & Validation",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131979007?gh_jid=5131979007"
@@ -130,7 +130,7 @@
   "144d9731e48a874fd254d30ffd6787780e461b9a83a98f115830ee51f50adef2": {
     "company": "Lockheed Martin",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
     "title": "Mechanical Engineer Associate / Lexington, KY Lexington, Kentucky Date Posted: 05/27/2026 Job ID: 729691BR",
     "url": "https://www.lockheedmartinjobs.com/job/lexington/mechanical-engineer-associate-lexington-ky/694/95666303056"
@@ -178,7 +178,7 @@
   "22ea84c15309c5c8871e4f7b066d1c26b27873de0552de681826bf58a2ec5f8a": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "C++ Mission Software Engineer, Mission Autonomy",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5125189007?gh_jid=5125189007"
@@ -242,7 +242,7 @@
   "2f76e5d4fe815e49cf052848a3358ad26d65e7ff587fb2a350cd37bfa9eff7da": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Electrical Engineer, Avionics Design",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5059872007?gh_jid=5059872007"
@@ -327,6 +327,14 @@
     "title": "Ability to Work Remotely",
     "url": "https://www.lockheedmartinjobs.com/search-jobs"
   },
+  "473a6ec0af2cb0123bfbae66334f012bbae532aab66359deb6bcae6845e6685b": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Systems Engineer \u2013 JPALS Precision Approach and Landing (ONSITE)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer---JPALS-Precision-Approach-and-Landing--ONSITE-_01864986"
+  },
   "4c44bcd5a84602cc8196dd3465b7763eb456ab0c0b3abee9c3051aa146ce1638": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -378,7 +386,7 @@
   "542c67f47b76b6b869859fa63a5abb6d08444819f81f39990b1753a641cde58f": {
     "company": "RTX",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Next Gen Systems Engineer I (Onsite)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-IA-CEDAR-RAPIDS-112--400-Collins-Rd-NE--BLDG-112/Next-Gen-Systems-Engineer-I--Onsite-_01857854"
@@ -466,7 +474,7 @@
   "6c80fdf426178deab4ccf456d38f0badd26b97e7d3c65d9f8ac3296f3c84312b": {
     "company": "Lockheed Martin",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
     "title": "Mechanical Engineer Lexington, Kentucky Date Posted: 05/26/2026 Job ID: 730125BR",
     "url": "https://www.lockheedmartinjobs.com/job/lexington/mechanical-engineer/694/95644274096"
@@ -511,6 +519,22 @@
     "title": "Denise and Kay, Materials Engineers",
     "url": "https://www.youtube.com/watch?v=AHATf5bBU0Y"
   },
+  "762b909999fc748be07de97e02b4fd984e6b8fba301aa8a68268d6898c53c926": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Systems Engineer \u2013 Algorithms (ONSITE)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-IA-CEDAR-RAPIDS-130--5350-C-Ave-NE--BLDG-130/Systems-Engineer---Algorithms--ONSITE-_01864982"
+  },
+  "7971dfc8ea0075d5f6ab7676ba95144da69a332613092829854f63ed2b342ca6": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Systems Engineer, Hardware Test Engineer Onsite",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineer--Hardware-Test-Engineer-Onsite_01865235"
+  },
   "8156b05f671222bfc69d73228372efa66b2d318aa234a97e09815694e31367e9": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -530,7 +554,7 @@
   "84fbd5469cf92ccd077091864e8430a7a2b9ecdca0cd55156e7b37f5216b39c1": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "AD&S, Air Vehicle Software Systems Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131822007?gh_jid=5131822007"
@@ -562,7 +586,7 @@
   "8b3f638b16dba8e2da5d2d817b0fc720f6314d6ca33655b5c876f67cb4ed05a1": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "2027 Early Career Mechanical Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5136984007?gh_jid=5136984007"
@@ -655,6 +679,14 @@
     "title": "New Grads & Interns Become part of our next generation of innovators and leaders",
     "url": "https://careers.l3harris.com/new-grads-and-interns"
   },
+  "a40e5fd6fcac1eeeca0f9d2e63e6e8406908b10f24d398c2067cc7e447317929": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Associate Engineer",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Associate-Engineer_01862425"
+  },
   "a449bb3ecf4007bc1790f23ec0478bbdf89d999ec2711410e6ace9410295da90": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -722,7 +754,7 @@
   "a95506edf9fe753ee1cf126b1204ab7cb06de184f29387183d0d6f84aa096858": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Electrical Engineer, High Speed Missiles Avionics Design",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5069946007?gh_jid=5069946007"
@@ -762,7 +794,7 @@
   "b3f0a0a49391ba2aaaaf8f9245d28ad4faa0bf9cc3105959cfa4c554ce1dae2a": {
     "company": "RTX",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Product Quality Engineer I (Onsite)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-FL-LARGO-382SS--7887-Bryan-Dairy-Rd--BLDG-100/Product-Quality-Engineer-I--Onsite-_01865061"
@@ -786,7 +818,7 @@
   "c228cd41da52092c08e08f87bcd0952f48336149a50567f220d135c082bf7ef9": {
     "company": "RTX",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Mechanical Engineer I (Mechanisms)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Mechanical-Engineer-I--Mechanisms-_01864598"
@@ -798,6 +830,14 @@
     "source_url": "https://jobs.boeing.com/search-jobs",
     "title": "Manufacturing in North Charleston",
     "url": "https://jobs.boeing.com/manufacturing-jobs-north-charleston"
+  },
+  "c8cc72545911cb8291686867c7a3de37ed545480f23fad040fbb7bc55f2543a8": {
+    "company": "Anduril",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "title": "Applied LLM Systems Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5197253007?gh_jid=5197253007"
   },
   "c9689dca98c9ff0374e50600bfc2a412698c5166dee1d97a8450beb24ceb3882": {
     "company": "Lockheed Martin",
@@ -839,6 +879,14 @@
     "title": "Skip to Search Filters",
     "url": "https://careers.l3harris.com/en/search-jobs#search-filters"
   },
+  "d6b419be8e00fcc7da05e9fce6a75b20d8a4d8ed6f6d6cdc88fa6420e9a71446": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Mechanical Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Mechanical-Engineer-I_01865471"
+  },
   "d6ba07d9cf51c3160cc8b2c981d82408ac3c080cc6d7f85142a67b1bb2e221e2": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -858,7 +906,7 @@
   "dbeb4725875e1c1af2ce26ed0cefe85c32d4ebb0ceead8165f5754bd8f196ca1": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Controls Engineer, Manufacturing Automation",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5038031007?gh_jid=5038031007"
@@ -922,7 +970,7 @@
   "ef593b9d41c2be338b815c984242755ee640eed6e8e274d7de8fd3a31551eca7": {
     "company": "Anduril",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Battery Mechanical Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5187738007?gh_jid=5187738007"
@@ -943,6 +991,14 @@
     "title": "Relocation Available",
     "url": "https://www.lockheedmartinjobs.com/search-jobs"
   },
+  "f662456a41a8c979202420c5e3ee108d2fffe0aab6e46728452a70d537d31c16": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "RF Design Electrical Engineer I (Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/RF-Design-Electrical-Engineer-I--Onsite-_01864067"
+  },
   "f7b51906422dfed8af3341c3aa2c15de90a0b2163d08619050fc289cc859080f": {
     "company": "Northrop Grumman",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -959,6 +1015,22 @@
     "title": "Aircraft",
     "url": "https://www.lockheedmartinjobs.com/search-jobs"
   },
+  "f854227368e38103f93492a21bfd23e16fb0b844b53d2652cc29a544b3dcf1cb": {
+    "company": "RTX",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Associate Engineer",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/job/IN-TS-HYDERABAD-012--Plot-No-12--SARVOTHAM-BLDG/Associate-Engineer_01862417"
+  },
+  "fa2668de5165987a261c5e2451b08f4b28c9f251ef0e7e524d5f18225a92b37e": {
+    "company": "Anduril",
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "title": "Electrical Engineer, Thunder Mission Systems Integration",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5165052007?gh_jid=5165052007"
+  },
   "fae1382ef5a0e13dfda1cce3fd587410e59ac445509a990fea674df886d46b68": {
     "company": "Lockheed Martin",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -970,7 +1042,7 @@
   "fcb92912e72ef8bd87a5c71e3c4179dd49e407c13350ee28102f497949be262d": {
     "company": "Sierra Space",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Propulsion Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/job/Madison-WI/Propulsion-Engineer-I_R25657-1"
@@ -986,7 +1058,7 @@
   "feea8746d781b830c179ee4b88ae7aec295f685cf345c161b61481cf4516f388": {
     "company": "Sierra Space",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-07T02:52:58.657776+00:00",
+    "last_seen": "2026-08-09T14:56:43.428393+00:00",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mission Operations and Controls Engineer/Specialist: Orbital Analyst (Clearance Required)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/job/Centennial-CO/Mission-Operations-and-Controls-Engineer-Specialist--Orbital-Analyst--Clearance-Required-_R25587-1"
