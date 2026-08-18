@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Verified aerospace jobs for May 2027 engineering graduates." />
+    <meta property="og:title" content="Trajectory — Aerospace New-Grad Jobs" />
+    <meta property="og:description" content="Verified aerospace jobs for the class of 2027." />
+    <meta property="og:image" content="https://jacobgarry.github.io/aerospace-job-tracker/og.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://jacobgarry.github.io/aerospace-job-tracker/og.png" />
+    <title>Trajectory — Aerospace New-Grad Jobs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Trajectory home">
+        <span class="brand-mark">T</span>
+        <span>TRAJECTORY</span>
+      </a>
+      <span class="live-pill"><i></i> Live tracker</span>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">BUILT FOR MAY 2027 GRADUATES</div>
+        <h1>Your aerospace career<br /><em>starts here.</em></h1>
+        <p class="hero-copy">Verified, early-career engineering roles—without senior jobs, career articles, or dead-end links.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#openings">Explore openings <span>↘</span></a>
+          <span class="sync-note">Updated automatically every week</span>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Tracker summary">
+        <div><strong id="metric-jobs">—</strong><span>verified roles</span></div>
+        <div><strong>10</strong><span>target companies</span></div>
+        <div><strong>0</strong><span>senior roles</span></div>
+      </section>
+
+      <section class="openings" id="openings">
+        <div class="section-heading">
+          <div>
+            <span class="kicker">LATEST SCAN</span>
+            <h2>Open positions</h2>
+          </div>
+          <span class="updated" id="updated-at">Loading latest scan…</span>
+        </div>
+        <div class="toolbar">
+          <label class="search"><span>⌕</span><input id="job-search" placeholder="Search roles or companies" aria-label="Search roles or companies" /></label>
+          <div class="filters" aria-label="Role filters">
+            <button class="active" data-filter="all">All roles</button><button data-filter="systems">Systems</button><button data-filter="mechanical">Mechanical</button><button data-filter="flight">Flight / GNC</button><button data-filter="propulsion">Propulsion</button>
+          </div>
+        </div>
+        <div class="job-list" id="job-list" aria-live="polite">
+          <div class="loading-row">Scanning verified employer feeds…</div>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No matching roles. Try a broader search or another filter.</p>
+      </section>
+
+      <section class="alerts" id="alerts">
+        <div>
+          <span class="kicker">WEEKLY FLIGHT PLAN</span>
+          <h2>Let the right roles<br />come to you.</h2>
+          <p>One concise weekly digest of newly verified entry-level aerospace jobs. No senior roles. No career-content pages. No spam.</p>
+        </div>
+        <div class="subscribe-form notification-card">
+          <span class="notification-label">EMAIL ALERTS THROUGH GITHUB</span>
+          <h3>Turn on weekly notifications</h3>
+          <p>The tracker already publishes a new GitHub issue after every successful scan. On the next screen, choose <strong>Custom → Issues</strong> so GitHub emails you when new jobs arrive.</p>
+          <a class="notification-button" href="https://github.com/jacobgarry/aerospace-job-tracker/subscription" target="_blank" rel="noopener noreferrer">Set up email alerts <span>→</span></a>
+        </div>
+      </section>
+    </main>
+    <footer><span>TRAJECTORY</span><p>Built for May 2027 aerospace engineering graduates.</p></footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>
