@@ -1,6 +1,12 @@
 name: Weekly Aerospace Job Tracker
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "aerospace-job-tracker/src/**"
+      - "aerospace-job-tracker/tests/**"
+      - "aerospace-job-tracker/config.yml"
   schedule:
     # Sundays at 9:00 AM Eastern during daylight saving time (13:00 UTC).
     - cron: "0 13 * * 0"

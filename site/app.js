@@ -58,6 +58,16 @@ function levelBadge(title = "") {
   return "ENTRY LEVEL";
 }
 
+function formatListingDate(value) {
+  if (!value) return "Not listed";
+  const dateOnly = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const parsed = dateOnly
+    ? new Date(Number(dateOnly[1]), Number(dateOnly[2]) - 1, Number(dateOnly[3]))
+    : new Date(value);
+  if (Number.isNaN(parsed.getTime())) return String(value);
+  return parsed.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+}
+
 function isGenuineEntryLevelJob(job) {
   const title = String(job.title || "");
   const url = String(job.url || "");
@@ -79,9 +89,12 @@ function render() {
     const companyClass = job.company.toLowerCase().replace(/[^a-z0-9]+/g, "");
     const category = categoryFor(job.title);
     const location = job.location || "See posting";
+    const posted = formatListingDate(job.posted_date);
+    const due = formatListingDate(job.due_date);
+    const firstSeen = !job.posted_date && job.first_seen ? `<span>First seen: ${escapeHtml(formatListingDate(job.first_seen))}</span>` : "";
     return `<article class="job-card ${index === 0 && /2027|new grad|early career/i.test(job.title) ? "featured" : ""}">
       <div class="company-logo ${companyClass}">${escapeHtml(job.company.slice(0, 1).toUpperCase())}</div>
-      <div class="job-main"><div class="job-meta"><span>${escapeHtml(job.company.toUpperCase())}</span><b>${levelBadge(job.title)}</b></div><h3>${escapeHtml(job.title)}</h3><p>${escapeHtml(category === "flight" ? "Flight / GNC" : category[0].toUpperCase() + category.slice(1))} · ${escapeHtml(location)}</p></div>
+      <div class="job-main"><div class="job-meta"><span>${escapeHtml(job.company.toUpperCase())}</span><b>${levelBadge(job.title)}</b></div><h3>${escapeHtml(job.title)}</h3><p>${escapeHtml(category === "flight" ? "Flight / GNC" : category[0].toUpperCase() + category.slice(1))} · ${escapeHtml(location)}</p><div class="job-dates"><span>Posted: ${escapeHtml(posted)}</span><span>Deadline: ${escapeHtml(due)}</span>${firstSeen}</div></div>
       <a href="${escapeHtml(job.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(job.title)} at ${escapeHtml(job.company)}">↗</a>
     </article>`;
   }).join("");
@@ -90,7 +103,9 @@ function render() {
 
 async function loadJobs() {
   try {
-    const response = await fetch("https://raw.githubusercontent.com/jacobgarry/aerospace-job-tracker/main/aerospace-job-tracker/data/new_jobs.json", { cache: "no-store" });
+    const feedRoot = "https://raw.githubusercontent.com/jacobgarry/aerospace-job-tracker/main/aerospace-job-tracker/data/";
+    let response = await fetch(`${feedRoot}current_jobs.json`, { cache: "no-store" });
+    if (!response.ok) response = await fetch(`${feedRoot}new_jobs.json`, { cache: "no-store" });
     if (!response.ok) throw new Error("Job feed unavailable");
     const result = await response.json();
     jobs = (Array.isArray(result) ? result : result.jobs || [])

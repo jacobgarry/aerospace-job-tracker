@@ -18,6 +18,7 @@ CONFIG_PATH = ROOT / "config.yml"
 SEEN_PATH = ROOT / "data" / "seen_jobs.json"
 LATEST_REPORT = ROOT / "reports" / "latest.md"
 NEW_JOBS_JSON = ROOT / "data" / "new_jobs.json"
+CURRENT_JOBS_JSON = ROOT / "data" / "current_jobs.json"
 
 HEADERS = {
     "User-Agent": (
@@ -33,6 +34,9 @@ class Job:
     title: str
     url: str
     source_url: str
+    posted_date: str | None = None
+    due_date: str | None = None
+    location: str | None = None
 
     @property
     def key(self) -> str:
@@ -212,6 +216,18 @@ def fetch_workday_jobs(
                 title=title[:180],
                 url=url,
                 source_url=source["url"],
+                posted_date=(
+                    posting.get("postedOn")
+                    or posting.get("postedDate")
+                    or posting.get("startDate")
+                ),
+                due_date=(
+                    posting.get("endDate")
+                    or posting.get("closingDate")
+                    or posting.get("applicationDeadline")
+                    or posting.get("applyBy")
+                ),
+                location=posting.get("locationsText"),
             )
             jobs[job.key] = job
 
@@ -247,6 +263,13 @@ def fetch_greenhouse_jobs(
             title=title[:180],
             url=url,
             source_url=source["url"],
+            posted_date=posting.get("first_published") or posting.get("created_at"),
+            due_date=posting.get("application_deadline") or posting.get("closes_at"),
+            location=(
+                (posting.get("location") or {}).get("name")
+                if isinstance(posting.get("location"), dict)
+                else str(posting.get("location") or "") or None
+            ),
         )
         jobs[job.key] = job
     return list(jobs.values())
@@ -349,14 +372,29 @@ def main() -> int:
 
     now = datetime.now(timezone.utc).isoformat()
     for job in current_jobs:
-        if job.key not in seen:
-            seen[job.key] = {**asdict(job), "first_seen": now}
+        first_seen = seen.get(job.key, {}).get("first_seen", now)
+        seen[job.key] = {**seen.get(job.key, {}), **asdict(job)}
+        seen[job.key]["first_seen"] = first_seen
         seen[job.key]["last_seen"] = now
 
     SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
     SEEN_PATH.write_text(json.dumps(seen, indent=2, sort_keys=True), encoding="utf-8")
     NEW_JOBS_JSON.write_text(
-        json.dumps([asdict(job) for job in new_jobs], indent=2), encoding="utf-8"
+        json.dumps(
+            [{**asdict(job), "first_seen": seen[job.key]["first_seen"]} for job in new_jobs],
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    CURRENT_JOBS_JSON.write_text(
+        json.dumps(
+            [
+                {**asdict(job), "first_seen": seen[job.key]["first_seen"]}
+                for job in current_jobs
+            ],
+            indent=2,
+        ),
+        encoding="utf-8",
     )
     write_report(current_jobs, new_jobs, errors)
 

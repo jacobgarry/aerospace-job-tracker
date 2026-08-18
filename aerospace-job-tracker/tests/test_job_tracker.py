@@ -136,7 +136,13 @@ class WorkdayTests(unittest.TestCase):
             {
                 "total": 3,
                 "jobPostings": [
-                    {"title": "Entry Level GNC Engineer", "externalPath": "/job/a/gnc_R1"},
+                    {
+                        "title": "Entry Level GNC Engineer",
+                        "externalPath": "/job/a/gnc_R1",
+                        "postedOn": "Posted 2 Days Ago",
+                        "endDate": "2026-09-15",
+                        "locationsText": "Cedar Rapids, IA",
+                    },
                     {"title": "Senior Systems Engineer", "externalPath": "/job/a/systems_R2"},
                 ],
             },
@@ -168,6 +174,9 @@ class WorkdayTests(unittest.TestCase):
             ],
             [job.url for job in jobs],
         )
+        self.assertEqual("Posted 2 Days Ago", jobs[0].posted_date)
+        self.assertEqual("2026-09-15", jobs[0].due_date)
+        self.assertEqual("Cedar Rapids, IA", jobs[0].location)
 
 
 class GreenhouseSession:
@@ -177,6 +186,9 @@ class GreenhouseSession:
                 {
                     "title": "2027 Early Career Flight Test Engineer",
                     "absolute_url": "https://boards.greenhouse.io/example/jobs/123",
+                    "first_published": "2026-08-17T12:00:00Z",
+                    "application_deadline": "2026-09-30",
+                    "location": {"name": "Costa Mesa, CA"},
                 },
                 {
                     "title": "Principal GNC Engineer",
@@ -200,6 +212,9 @@ class GreenhouseTests(unittest.TestCase):
 
         self.assertEqual(["2027 Early Career Flight Test Engineer"],
                          [job.title for job in jobs])
+        self.assertEqual("2026-08-17T12:00:00Z", jobs[0].posted_date)
+        self.assertEqual("2026-09-30", jobs[0].due_date)
+        self.assertEqual("Costa Mesa, CA", jobs[0].location)
 
 
 if __name__ == "__main__":
