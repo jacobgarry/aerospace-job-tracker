@@ -158,5 +158,85 @@
     "due_date": null,
     "location": "2 Locations",
     "first_seen": "2026-08-18T03:55:48.294180+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "2027 Early Career Mechanical Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5136984007?gh_jid=5136984007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-06-11T13:26:52-04:00",
+    "due_date": null,
+    "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Costa Mesa, California, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "AD&S, Air Vehicle Software Systems Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131822007?gh_jid=5131822007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-05-07T13:10:48-04:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "Air Vehicle Systems Engineer, Hardware Verification, Integration & Validation",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131979007?gh_jid=5131979007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-05-07T20:45:01-04:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "Battery Mechanical Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5187738007?gh_jid=5187738007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-07-16T16:28:45-04:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "C++ Mission Software Engineer, Mission Autonomy",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5125189007?gh_jid=5125189007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-04-30T11:18:34-04:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "Controls Engineer, Manufacturing Automation",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5038031007?gh_jid=5038031007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-02-02T16:38:14-05:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "Electrical Engineer, Avionics Design",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5059872007?gh_jid=5059872007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-02-23T15:36:24-05:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
+  },
+  {
+    "company": "Anduril",
+    "title": "Electrical Engineer, High Speed Missiles Avionics Design",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5069946007?gh_jid=5069946007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-03-19T12:01:10-04:00",
+    "due_date": null,
+    "location": "Costa Mesa, California, United States",
+    "first_seen": "2026-08-07T02:52:58.657776+00:00"
   }
 ]
