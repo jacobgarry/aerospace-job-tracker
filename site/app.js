@@ -45,7 +45,7 @@ function escapeHtml(value = "") {
 function categoryFor(title = "") {
   const value = title.toLowerCase();
   if (/gnc|guidance|navigation|flight|avionics|controls?/.test(value)) return "flight";
-  if (/propulsion|engine|thermal|fluids?/.test(value)) return "propulsion";
+  if (/\b(propulsion|engine|thermal|fluids?)\b/.test(value)) return "propulsion";
   if (/mechanical|structures?|stress|manufacturing|design engineer/.test(value)) return "mechanical";
   if (/systems?|integration|safety|autonomy|uas|software|electrical/.test(value)) return "systems";
   return "other";
