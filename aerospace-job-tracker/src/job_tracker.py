@@ -95,7 +95,7 @@ ENGINEERING_ROLE_RE = re.compile(
     r"\b(?:engineer(?:ing)?|aerodynamicist|flight sciences?)\b", re.IGNORECASE
 )
 SENIORITY_RE = re.compile(
-    r"\b(?:sr\.?|senior|principal|staff|lead|chief|manager|director|"
+    r"\b(?:sr\.?|senior|principal|principle|staff|lead|chief|manager|director|"
     r"head|vice president|vp|engineer(?:ing)?\s+(?:ii|iii|iv|v|[2-9]))\b",
     re.IGNORECASE,
 )

@@ -62,6 +62,7 @@ class JobExtractionTests(unittest.TestCase):
         <a href="/jobs/5">Sr. Associate Systems Engineer</a>
         <a href="/jobs/6">Mechanical Engineer II</a>
         <a href="/jobs/7">Flight Test Engineer III</a>
+        <a href="/jobs/8">Principle Mechanical Engineer</a>
         """
         self.assertEqual([], self.extract(html))
 

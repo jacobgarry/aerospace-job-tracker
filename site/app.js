@@ -55,7 +55,7 @@ function levelBadge(title = "") {
   if (/2027|new grad|early career/i.test(title)) return "2027 NEW GRAD";
   if (/associate/i.test(title)) return "ASSOCIATE";
   if (/engineer\s*(i|1)(\b|\s|—|-)/i.test(title)) return "ENGINEER I";
-  return "ENTRY LEVEL";
+  return "LEVEL NOT LISTED";
 }
 
 function formatListingDate(value) {
@@ -71,7 +71,7 @@ function formatListingDate(value) {
 function isGenuineEntryLevelJob(job) {
   const title = String(job.title || "");
   const url = String(job.url || "");
-  const blocked = /\b(senior|sr\.?|principal|staff|lead|chief|manager|director|supervisor|vice president|vp|head of|engineer\s+(ii|iii|iv|v|[2-9])|intern(ship)?|co-?op|2026)\b/i;
+  const blocked = /\b(senior|sr\.?|principal|principle|staff|lead|chief|manager|director|supervisor|vice president|vp|head of|engineer\s+(ii|iii|iv|v|[2-9])|intern(ship)?|co-?op|2026)\b/i;
   const target = /\b(aerospace|mechanical|systems?|controls?|gnc|guidance|navigation|flight|test|uas|uav|autonomy|autonomous|propulsion|structures?|stress|integration|avionics|manufacturing|design|electrical|software|safety|production)\b/i;
   const content = /\b(career story|meet |passion for|ways to inspire|thrill of|in alabama|in california|life at|talent community|newsletter|event|blog)\b/i;
   return /^https?:\/\//i.test(url) && target.test(title) && !blocked.test(title) && !content.test(title) && !/\/job\/(IN|GB|CA|AU|PL|CZ|DE|FR|SG|PH|MX|BR)-/i.test(url);
