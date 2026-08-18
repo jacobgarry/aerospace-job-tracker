@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from job_tracker import (
+    build_workday_url,
     extract_jobs,
     fetch_greenhouse_jobs,
     fetch_workday_jobs,
@@ -121,6 +122,15 @@ class FakeSession:
 
 
 class WorkdayTests(unittest.TestCase):
+    def test_keeps_workday_tenant_prefix(self):
+        self.assertEqual(
+            "https://example.myworkdayjobs.com/en-US/Careers/job/a/role_R1",
+            build_workday_url(
+                "https://example.myworkdayjobs.com/en-US/Careers/",
+                "/job/a/role_R1",
+            ),
+        )
+
     def test_reads_pages_and_filters_workday_results(self):
         session = FakeSession([
             {
@@ -150,6 +160,13 @@ class WorkdayTests(unittest.TestCase):
         self.assertEqual(
             ["Entry Level GNC Engineer", "Mechanical Engineer I"],
             [job.title for job in jobs],
+        )
+        self.assertEqual(
+            [
+                "https://example.myworkdayjobs.com/en-US/Careers/job/a/gnc_R1",
+                "https://example.myworkdayjobs.com/en-US/Careers/job/b/mech_R3",
+            ],
+            [job.url for job in jobs],
         )
 
 

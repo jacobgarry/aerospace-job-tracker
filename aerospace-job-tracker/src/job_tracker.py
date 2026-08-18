@@ -48,6 +48,11 @@ def is_http_url(url: str) -> bool:
     return urlparse(url).scheme in {"http", "https"}
 
 
+def build_workday_url(base_url: str, external_path: str) -> str:
+    """Keep the Workday tenant/site prefix when joining externalPath."""
+    return f"{base_url.rstrip('/')}/{external_path.lstrip('/')}"
+
+
 def keyword_match(text: str, include: list[str], exclude: list[str]) -> bool:
     haystack = text.lower()
 
@@ -193,7 +198,11 @@ def fetch_workday_jobs(
         for posting in postings:
             title = normalize_space(str(posting.get("title", "")))
             path = str(posting.get("externalPath", ""))
-            url = urljoin(source["base_url"], path)
+            # Workday returns externalPath values beginning with "/job". Using
+            # urljoin would treat that as an origin-relative path and silently
+            # discard the tenant/career-site prefix in base_url, producing a
+            # convincing-looking URL that Workday answers with "Page not found".
+            url = build_workday_url(source["base_url"], path)
             if not title or not is_relevant_job_title(title, include, exclude):
                 continue
             if not is_job_detail_url(url, source["url"]):

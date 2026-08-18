@@ -1,8 +1,8 @@
 const fallbackJobs = [
   { company: "Anduril", title: "2027 Early Career Mechanical Engineer", url: "https://boards.greenhouse.io/andurilindustries/jobs/5136984007?gh_jid=5136984007", location: "United States" },
-  { company: "RTX", title: "Mechanical Engineer I", url: "https://globalhr.wd5.myworkdayjobs.com/job/US-AZ-TUCSON-928--1151-E-Hermans-Rd--MULTI-PURPOSE-FAC-928/Mechanical-Engineer-I_01866696", location: "Tucson, AZ" },
+  { company: "RTX", title: "Mechanical Engineer I", url: "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-928--1151-E-Hermans-Rd--MULTI-PURPOSE-FAC-928/Mechanical-Engineer-I_01866696", location: "Tucson, AZ" },
   { company: "Boeing", title: "Flight Sciences Engineer — Guidance, Navigation, and Control (GNC)", url: "https://jobs.boeing.com/job/bingen/flight-sciences-engineer-guidance-navigation-and-control-gnc/185/99278879664", location: "United States" },
-  { company: "Sierra Space", title: "Mechanical Engineer I", url: "https://sierraspace.wd1.myworkdayjobs.com/job/Louisville-CO/Mechanical-Engineer-I_R26073", location: "Louisville, CO" },
+  { company: "Sierra Space", title: "Mechanical Engineer I", url: "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Mechanical-Engineer-I_R26073", location: "Louisville, CO" },
 ];
 
 const list = document.querySelector("#job-list");
@@ -13,6 +13,28 @@ const updated = document.querySelector("#updated-at");
 const filters = [...document.querySelectorAll("[data-filter]")];
 let jobs = [];
 let activeFilter = "all";
+
+function repairWorkdayUrl(job) {
+  const value = { ...job };
+  const url = String(value.url || "");
+  if (url.startsWith("https://globalhr.wd5.myworkdayjobs.com/job/")) {
+    value.url = url.replace(
+      "https://globalhr.wd5.myworkdayjobs.com/job/",
+      "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/",
+    );
+  } else if (url.startsWith("https://sierraspace.wd1.myworkdayjobs.com/job/")) {
+    value.url = url.replace(
+      "https://sierraspace.wd1.myworkdayjobs.com/job/",
+      "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/",
+    );
+  } else if (url.startsWith("https://blueorigin.wd5.myworkdayjobs.com/job/")) {
+    value.url = url.replace(
+      "https://blueorigin.wd5.myworkdayjobs.com/job/",
+      "https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/",
+    );
+  }
+  return value;
+}
 
 function escapeHtml(value = "") {
   return String(value).replace(/[&<>'"]/g, (character) => ({
@@ -71,7 +93,9 @@ async function loadJobs() {
     const response = await fetch("https://raw.githubusercontent.com/jacobgarry/aerospace-job-tracker/main/aerospace-job-tracker/data/new_jobs.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Job feed unavailable");
     const result = await response.json();
-    jobs = (Array.isArray(result) ? result : result.jobs || []).filter(isGenuineEntryLevelJob);
+    jobs = (Array.isArray(result) ? result : result.jobs || [])
+      .map(repairWorkdayUrl)
+      .filter(isGenuineEntryLevelJob);
     if (!jobs.length) jobs = fallbackJobs;
     updated.textContent = `Updated ${new Date().toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}`;
   } catch {
