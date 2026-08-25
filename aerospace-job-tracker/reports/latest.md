@@ -1,42 +1,32 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-08-23 13:57 UTC**
+Generated: **2026-08-25 18:16 UTC**
 
-Matched listings found: **26**  
-New listings since the previous successful run: **15**
+Matched listings found: **21**  
+New listings since the previous successful run: **10**
 
 ## New Matches
 
-- **RTX — Mechanical Engineer I**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Mechanical-Engineer-I_01863633)
-- **RTX — Mechanical Engineer I, Avionics Test Engineering**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-FL-MELBOURNE-307--1100-W-Hibiscus-Blvd--BLDG-307/Mechanical-Engineer-I--Avionics-Test-Engineering_01868755)
-- **RTX — Platform Systems Engineer I (Hybrid - Aguadilla, PR)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Platform-Systems-Engineer-I--Hybrid---Aguadilla--PR-_01869109)
-- **RTX — Associate Engineer**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer_01868645)
-- **RTX — Associate Engineer**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Associate-Engineer_01868987)
-- **RTX — Electronics Design Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-B01--6825-Cortona-Dr--BLDG-B01/XMLNAME-2026-Fulltime---Electronics-Design-Engineer-I---Onsite_01826209)
-- **RTX — Software Engineer I, Connected Aviation Solutions (Hybrid - Aguadilla, PR)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Software-Engineer-I--Connected-Aviation-Solutions--Hybrid---Aguadilla--PR-_01869189)
-- **RTX — Software Engineer I, Onsite**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineer-I--Onsite_01868070)
-- **RTX — Tooling Design Engineer I**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-B03--75-Coromar-Dr--BLDG-B03/Tooling-Design-Engineer-I_01868074)
-- **L3Harris — Specialist, Mechanical Engineer - Dynamics Analyst (Space Optical Systems) Engineering Multiple Locations**  
-  [Open application](https://careers.l3harris.com/en/job/rochester/specialist-mechanical-engineer-dynamics-analyst-space-optical-systems/4832/98137589040)
-- **Anduril — Battery Mechanical Engineer**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5200203007?gh_jid=5200203007)
-- **RTX — F135 Compression Systems Engineer (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-OK-TINKER-AFB-CUST--3001-Staff-Dr--TINKER-AFB-External-Site/F135-Compression-Systems-Engineer--Onsite-_01863618)
-- **RTX — Systems Engineer**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Systems-Engineer_01868422)
-- **RTX — Systems Engineer (ONSITE)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Systems-Engineer--ONSITE-_01868441)
-- **RTX — Systems Engineer (SEIT) II**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338/Systems-Engineer--SEIT--II_01868955)
+- **RTX — Mechanical Engineer I - Controls and Actuation Systems**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Mechanical-Engineer-I---Controls-and-Actuation-Systems_01869585-1)
+- **RTX — Systems Engineer I, Communications (Onsite - Secret Clearance)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Systems-Engineer-I--Communications--Onsite---Secret-Clearance-_01869655)
+- **RTX — 2026 Raytheon Full Time-Software Engineer I – EOIR Advanced Products and Solutions (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/XMLNAME-2026-Raytheon-Full-Time-Software-Engineer-I---EOIR-Advanced-Products-and-Solutions--Onsite-_01851718)
+- **RTX — ECAD Design Engineer I (Remote)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/ECAD-Design-Engineer-I--Remote-_01868969)
+- **RTX — Raytheon Full Time 2026 - Digital Electronics Electrical Engineer I**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Raytheon-Full-Time-2026---Digital-Electronics-Electrical-Engineer-I_01838187)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-I---Onsite-_01868242)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-I--Onsite-_01861525)
+- **RTX — Test & Validation Engineer I - Onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MS-FOREST-425--19859-Hwy-80--BLDG-425/Test---Validation-Engineer-I---Onsite_01856945)
+- **L3Harris — Associate, Information Security Systems Engineer Engineering|New, Grads Colorado Springs, CO**  
+  [Open application](https://careers.l3harris.com/en/job/colorado-springs/associate-information-security-systems-engineer/4832/99720406960)
+- **L3Harris — Associate, Mechanical Engineer Engineering|New, Grads Rochester, NY**  
+  [Open application](https://careers.l3harris.com/en/job/rochester/associate-mechanical-engineer/4832/99720406800)
 
 ## Notes
 

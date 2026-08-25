@@ -78,7 +78,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-05-07T20:45:01-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -228,7 +228,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States; Seattle, Washington, United States; Washington, District of Columbia, United States",
     "posted_date": "2026-04-30T11:18:34-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -330,7 +330,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-02-23T15:36:24-05:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -366,6 +366,17 @@
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Platform Systems Engineer I (Hybrid - Aguadilla, PR)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Platform-Systems-Engineer-I--Hybrid---Aguadilla--PR-_01869109"
+  },
+  "375668954a1d6832d8a89b615ad165c6e70e0c605cea945fd27c87aa9bec5f89": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "ECAD Design Engineer I (Remote)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/ECAD-Design-Engineer-I--Remote-_01868969"
   },
   "3821c315313ed9b7b256b239508e8cfcfd932c445cc35b9e42274e6249c23149": {
     "company": "Boeing",
@@ -431,6 +442,17 @@
     "title": "Maritime Systems",
     "url": "https://www.lockheedmartin.com/en-us/capabilities/maritime-systems.html"
   },
+  "40eafc00b289774e954ef24b6111ceaed1a99311692513df7e173748d7735cf4": {
+    "company": "L3Harris",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Associate, Information Security Systems Engineer Engineering|New, Grads Colorado Springs, CO",
+    "url": "https://careers.l3harris.com/en/job/colorado-springs/associate-information-security-systems-engineer/4832/99720406960"
+  },
   "42ad1363f0640ddfe94cb91e13d26a55b2020b03b8b7f3a0aa922fe60f7499d2": {
     "company": "Lockheed Martin",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -438,6 +460,17 @@
     "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
     "title": "DOWNLOAD TRANSCRIPT",
     "url": "https://tbcdn.talentbrew.com/company/694/transcripts/newtranscripts/"
+  },
+  "42e8ffbe6c38405c80ed21ba6382403880b3a4bfda9e6ab8f6fc1e7f308079ea": {
+    "company": "L3Harris",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Associate, Mechanical Engineer Engineering|New, Grads Rochester, NY",
+    "url": "https://careers.l3harris.com/en/job/rochester/associate-mechanical-engineer/4832/99720406800"
   },
   "4439d0e7bca04c2fb09b479177e19b8b2ab7a32d7ded6469b8d56f4a96d5d5fc": {
     "company": "RTX",
@@ -514,6 +547,17 @@
     "title": "Finance Careers at Boeing",
     "url": "https://jobs.boeing.com/finance-careers"
   },
+  "54211ea10b106840aea112ade3e1021fb16359fafb2dbd617e589304647fa68a": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-MA-MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Software Engineer I (Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-I--Onsite-_01861525"
+  },
   "542c67f47b76b6b869859fa63a5abb6d08444819f81f39990b1753a641cde58f": {
     "company": "RTX",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
@@ -556,6 +600,17 @@
     "source_url": "https://jobs.boeing.com/search-jobs",
     "title": "Boeing in Japan",
     "url": "https://jobs.boeing.com/boeing-in-japan"
+  },
+  "582eec80afa1532ef8f8efdc627e9e202cf0e8d0564e2afe2edf35a72616b732": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Systems Engineer I, Communications (Onsite - Secret Clearance)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Systems-Engineer-I--Communications--Onsite---Secret-Clearance-_01869655"
   },
   "5973741234ff97511bd3ca414c16d60fe4793c6582f152966d77074da0a41298": {
     "company": "RTX",
@@ -804,7 +859,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-05-07T13:10:48-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -839,7 +894,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
     "posted_date": "2026-06-11T13:26:52-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1051,7 +1106,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-03-19T12:01:10-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1152,6 +1207,17 @@
     "title": "Skip to main content",
     "url": "https://careers.l3harris.com/en/search-jobs#content"
   },
+  "bd44f8953dfd66c202de52e21b06d0fee46200b03675f60c6f6412f1317ba59e": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-AZ-TUCSON-M10 ~ 3360 E Hemisphere Loop ~ BLDG M10",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Mechanical Engineer I - Controls and Actuation Systems",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Mechanical-Engineer-I---Controls-and-Actuation-Systems_01869585-1"
+  },
   "c228cd41da52092c08e08f87bcd0952f48336149a50567f220d135c082bf7ef9": {
     "company": "RTX",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
@@ -1172,7 +1238,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-09T14:56:43.428393+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-08-07T10:44:28-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1339,7 +1405,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-02-02T16:38:14-05:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1353,6 +1419,17 @@
     "source_url": "https://jobs.boeing.com/search-jobs",
     "title": "Flight Test Operator 3",
     "url": "https://jobs.boeing.com/job/bingen/flight-test-operator-3/185/98862534480"
+  },
+  "e1f8d0402862a99529b720d5b2844a86280c80b272d0e6d1f9be1f3c39d783f3": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-TX-MCKINNEY-513WC ~ 2501 W University Dr ~ WING C BLDG",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "2026 Raytheon Full Time-Software Engineer I \u2013 EOIR Advanced Products and Solutions (Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/XMLNAME-2026-Raytheon-Full-Time-Software-Engineer-I---EOIR-Advanced-Products-and-Solutions--Onsite-_01851718"
   },
   "e23565db59c7a60c8ae6faee59e8674ac8339b4c9ec0be1d0238d60c7ced696b": {
     "company": "Boeing",
@@ -1369,6 +1446,17 @@
     "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
     "title": "Job Query",
     "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "e3285d0d1895f9f3ed84353d1181c35c905bed4e308bccf5924a8307a48e9a6a": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-MA-TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Raytheon Full Time 2026 - Digital Electronics Electrical Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Raytheon-Full-Time-2026---Digital-Electronics-Electrical-Engineer-I_01838187"
   },
   "e498180bcbd6abb751cee8a8f936f556876d076e7a5671b5f5d77bc4bf2a6abf": {
     "company": "Lockheed Martin",
@@ -1390,7 +1478,7 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-08-18T03:55:48.294180+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "2 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
@@ -1409,9 +1497,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-08-18T03:55:48.294180+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Madison, WI",
-    "posted_date": "Posted 25 Days Ago",
+    "posted_date": "Posted 27 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Propulsion Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Madison-WI/Propulsion-Engineer-I_R25657-1"
@@ -1442,7 +1530,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-23T13:57:18.647700+00:00",
-    "last_seen": "2026-08-23T13:57:18.647700+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-08-03T13:56:17-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1468,6 +1556,17 @@
     "title": "Battery Mechanical Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5187738007?gh_jid=5187738007"
   },
+  "f04501a250ead3b30afce7ce67a7787bf4ac57b8062dbb814ebb45dd7db6a5ee": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-MS-FOREST-425 ~ 19859 Hwy 80 ~ BLDG 425",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Test & Validation Engineer I - Onsite",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MS-FOREST-425--19859-Hwy-80--BLDG-425/Test---Validation-Engineer-I---Onsite_01856945"
+  },
   "f2e35ee8cf277fe1f351fb53dbc5cad17321935d04ceb91a95be87b8dbf3c39a": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -1483,6 +1582,17 @@
     "source_url": "https://www.lockheedmartinjobs.com/search-jobs",
     "title": "Relocation Available",
     "url": "https://www.lockheedmartinjobs.com/search-jobs"
+  },
+  "f32bfd4e567b9d64c84ed155524797acf761881b7910f43b5664b65d91e01ce2": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-08-25T18:16:16.416093+00:00",
+    "last_seen": "2026-08-25T18:16:16.416093+00:00",
+    "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Software Engineer I (Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-I---Onsite-_01868242"
   },
   "f5769a0e48eea788b5e9a7040b729406ab5b8310c1134ffc50d7c9b74d11a4ca": {
     "company": "RTX",
