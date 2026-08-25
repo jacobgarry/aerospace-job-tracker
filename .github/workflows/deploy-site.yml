@@ -7,6 +7,7 @@ on:
       - "site/**"
       - "aerospace-job-tracker/data/new_jobs.json"
       - "aerospace-job-tracker/data/current_jobs.json"
+      - "aerospace-job-tracker/data/archived_jobs.json"
       - ".github/workflows/deploy-site.yml"
   schedule:
     - cron: "20 14 * * 0"

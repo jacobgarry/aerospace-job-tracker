@@ -11,7 +11,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://jacobgarry.github.io/aerospace-job-tracker/og.png" />
     <title>Trajectory — Aerospace New-Grad Jobs</title>
-    <link rel="stylesheet" href="styles.css?v=20260818-dates-v2" />
+    <link rel="stylesheet" href="styles.css?v=20260825-archive-v1" />
   </head>
   <body>
     <header class="topbar">
@@ -43,10 +43,15 @@
         <div class="section-heading">
           <div>
             <span class="kicker">LATEST SCAN</span>
-            <h2>Open positions</h2>
+            <h2 id="openings-title">Open positions</h2>
           </div>
           <span class="updated" id="updated-at">Loading latest scan…</span>
         </div>
+        <div class="status-tabs" aria-label="Listing status">
+          <button class="active" data-status="active">Active roles <span id="active-count">—</span></button>
+          <button data-status="archived">Archived roles <span id="archived-count">—</span></button>
+        </div>
+        <p class="archive-note" id="archive-note" hidden>Past listings are saved here for reference. The application link remains available, though the employer may have closed the role.</p>
         <div class="toolbar">
           <label class="search"><span>⌕</span><input id="job-search" placeholder="Search roles or companies" aria-label="Search roles or companies" /></label>
           <div class="filters" aria-label="Role filters">
@@ -74,6 +79,6 @@
       </section>
     </main>
     <footer><span>TRAJECTORY</span><p>Built for May 2027 aerospace engineering graduates.</p></footer>
-    <script src="app.js?v=20260818-dates-v2" defer></script>
+    <script src="app.js?v=20260825-archive-v1" defer></script>
   </body>
 </html>

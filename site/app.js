@@ -10,8 +10,15 @@ const empty = document.querySelector("#empty-state");
 const search = document.querySelector("#job-search");
 const metric = document.querySelector("#metric-jobs");
 const updated = document.querySelector("#updated-at");
+const openingsTitle = document.querySelector("#openings-title");
+const archiveNote = document.querySelector("#archive-note");
+const activeCount = document.querySelector("#active-count");
+const archivedCount = document.querySelector("#archived-count");
 const filters = [...document.querySelectorAll("[data-filter]")];
-let jobs = [];
+const statusTabs = [...document.querySelectorAll("[data-status]")];
+let activeJobs = [];
+let archivedJobs = [];
+let viewMode = "active";
 let activeFilter = "all";
 
 function repairWorkdayUrl(job) {
@@ -51,7 +58,8 @@ function categoryFor(title = "") {
   return "other";
 }
 
-function levelBadge(title = "") {
+function levelBadge(title = "", archived = false) {
+  if (archived) return "ARCHIVED";
   if (/2027|new grad|early career/i.test(title)) return "2027 NEW GRAD";
   if (/associate/i.test(title)) return "ASSOCIATE";
   if (/engineer\s*(i|1)(\b|\s|—|-)/i.test(title)) return "ENGINEER I";
@@ -79,7 +87,8 @@ function isGenuineEntryLevelJob(job) {
 
 function render() {
   const query = search.value.trim().toLowerCase();
-  const visible = jobs.filter((job) => {
+  const sourceJobs = viewMode === "archived" ? archivedJobs : activeJobs;
+  const visible = sourceJobs.filter((job) => {
     const matchesText = `${job.company} ${job.title} ${job.location || ""}`.toLowerCase().includes(query);
     const matchesFilter = activeFilter === "all" || categoryFor(job.title) === activeFilter;
     return matchesText && matchesFilter;
@@ -92,32 +101,47 @@ function render() {
     const posted = formatListingDate(job.posted_date);
     const due = formatListingDate(job.due_date);
     const firstSeen = !job.posted_date && job.first_seen ? `<span>First seen: ${escapeHtml(formatListingDate(job.first_seen))}</span>` : "";
-    return `<article class="job-card ${index === 0 && /2027|new grad|early career/i.test(job.title) ? "featured" : ""}">
+    const archivedDate = viewMode === "archived" ? `<span>Archived: ${escapeHtml(formatListingDate(job.archived_at || job.last_seen))}</span>` : "";
+    const featured = viewMode === "active" && index === 0 && /2027|new grad|early career/i.test(job.title);
+    return `<article class="job-card ${featured ? "featured" : ""} ${viewMode === "archived" ? "archived" : ""}">
       <div class="company-logo ${companyClass}">${escapeHtml(job.company.slice(0, 1).toUpperCase())}</div>
-      <div class="job-main"><div class="job-meta"><span>${escapeHtml(job.company.toUpperCase())}</span><b>${levelBadge(job.title)}</b></div><h3>${escapeHtml(job.title)}</h3><p>${escapeHtml(category === "flight" ? "Flight / GNC" : category[0].toUpperCase() + category.slice(1))} · ${escapeHtml(location)}</p><div class="job-dates"><span>Posted: ${escapeHtml(posted)}</span><span>Deadline: ${escapeHtml(due)}</span>${firstSeen}</div></div>
+      <div class="job-main"><div class="job-meta"><span>${escapeHtml(job.company.toUpperCase())}</span><b>${levelBadge(job.title, viewMode === "archived")}</b></div><h3>${escapeHtml(job.title)}</h3><p>${escapeHtml(category === "flight" ? "Flight / GNC" : category[0].toUpperCase() + category.slice(1))} · ${escapeHtml(location)}</p><div class="job-dates"><span>Posted: ${escapeHtml(posted)}</span><span>Deadline: ${escapeHtml(due)}</span>${firstSeen}${archivedDate}</div></div>
       <a href="${escapeHtml(job.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(job.title)} at ${escapeHtml(job.company)}">↗</a>
     </article>`;
   }).join("");
   empty.hidden = visible.length !== 0;
+  empty.textContent = viewMode === "archived"
+    ? "No archived roles match this search yet."
+    : "No matching roles. Try a broader search or another filter.";
+  openingsTitle.textContent = viewMode === "archived" ? "Archived positions" : "Open positions";
+  archiveNote.hidden = viewMode !== "archived";
 }
 
 async function loadJobs() {
   try {
     const feedRoot = "https://raw.githubusercontent.com/jacobgarry/aerospace-job-tracker/main/aerospace-job-tracker/data/";
-    let response = await fetch(`${feedRoot}current_jobs.json`, { cache: "no-store" });
-    if (!response.ok) response = await fetch(`${feedRoot}new_jobs.json`, { cache: "no-store" });
-    if (!response.ok) throw new Error("Job feed unavailable");
-    const result = await response.json();
-    jobs = (Array.isArray(result) ? result : result.jobs || [])
+    let activeResponse = await fetch(`${feedRoot}current_jobs.json`, { cache: "no-store" });
+    if (!activeResponse.ok) activeResponse = await fetch(`${feedRoot}new_jobs.json`, { cache: "no-store" });
+    if (!activeResponse.ok) throw new Error("Job feed unavailable");
+    const archiveResponse = await fetch(`${feedRoot}archived_jobs.json`, { cache: "no-store" });
+    const activeResult = await activeResponse.json();
+    const archiveResult = archiveResponse.ok ? await archiveResponse.json() : [];
+    activeJobs = (Array.isArray(activeResult) ? activeResult : activeResult.jobs || [])
       .map(repairWorkdayUrl)
       .filter(isGenuineEntryLevelJob);
-    if (!jobs.length) jobs = fallbackJobs;
+    archivedJobs = (Array.isArray(archiveResult) ? archiveResult : archiveResult.jobs || [])
+      .map(repairWorkdayUrl)
+      .filter(isGenuineEntryLevelJob);
+    if (!activeJobs.length) activeJobs = fallbackJobs;
     updated.textContent = `Updated ${new Date().toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}`;
   } catch {
-    jobs = fallbackJobs;
+    activeJobs = fallbackJobs;
+    archivedJobs = [];
     updated.textContent = "Showing a recent verified snapshot";
   }
-  metric.textContent = jobs.length;
+  metric.textContent = activeJobs.length;
+  activeCount.textContent = activeJobs.length;
+  archivedCount.textContent = archivedJobs.length;
   render();
 }
 
@@ -125,6 +149,11 @@ search.addEventListener("input", render);
 filters.forEach((button) => button.addEventListener("click", () => {
   activeFilter = button.dataset.filter;
   filters.forEach((item) => item.classList.toggle("active", item === button));
+  render();
+}));
+statusTabs.forEach((button) => button.addEventListener("click", () => {
+  viewMode = button.dataset.status;
+  statusTabs.forEach((item) => item.classList.toggle("active", item === button));
   render();
 }));
 

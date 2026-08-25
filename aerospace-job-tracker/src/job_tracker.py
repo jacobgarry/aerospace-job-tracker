@@ -19,6 +19,7 @@ SEEN_PATH = ROOT / "data" / "seen_jobs.json"
 LATEST_REPORT = ROOT / "reports" / "latest.md"
 NEW_JOBS_JSON = ROOT / "data" / "new_jobs.json"
 CURRENT_JOBS_JSON = ROOT / "data" / "current_jobs.json"
+ARCHIVED_JOBS_JSON = ROOT / "data" / "archived_jobs.json"
 
 HEADERS = {
     "User-Agent": (
@@ -284,6 +285,59 @@ def load_seen() -> dict[str, dict]:
         return {}
 
 
+def job_signature(job: Job | dict) -> tuple[str, str]:
+    """Identify the same role even when an employer changes its application URL."""
+    company = job.company if isinstance(job, Job) else str(job.get("company", ""))
+    title = job.title if isinstance(job, Job) else str(job.get("title", ""))
+    return (normalize_space(company).lower(), normalize_space(title).lower())
+
+
+def build_archived_jobs(
+    seen: dict[str, dict],
+    current_jobs: list[Job],
+    include: list[str],
+    exclude: list[str],
+    now: str,
+) -> list[dict]:
+    """Preserve previously seen, relevant roles that are absent from this scan."""
+    active_signatures = {job_signature(job) for job in current_jobs}
+    archived_by_role: dict[tuple[str, str], dict] = {}
+
+    for record in seen.values():
+        company = normalize_space(str(record.get("company", "")))
+        title = normalize_space(str(record.get("title", "")))
+        url = str(record.get("url", ""))
+        source_url = str(record.get("source_url", ""))
+        signature = job_signature(record)
+        if not company or not title or signature in active_signatures:
+            continue
+        if not is_relevant_job_title(title, include, exclude):
+            continue
+        if not is_http_url(url) or not is_job_detail_url(url, source_url):
+            continue
+
+        archived = {
+            **record,
+            "company": company,
+            "title": title,
+            "status": "archived",
+            "archived_at": record.get("last_seen") or now,
+        }
+        existing = archived_by_role.get(signature)
+        if not existing or str(archived["archived_at"]) > str(existing["archived_at"]):
+            archived_by_role[signature] = archived
+
+    return sorted(
+        archived_by_role.values(),
+        key=lambda item: (
+            str(item.get("archived_at", "")),
+            str(item.get("company", "")),
+            str(item.get("title", "")),
+        ),
+        reverse=True,
+    )
+
+
 def write_report(all_jobs: list[Job], new_jobs: list[Job], errors: list[str]) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [
@@ -377,11 +431,20 @@ def main() -> int:
         seen[job.key]["first_seen"] = first_seen
         seen[job.key]["last_seen"] = now
 
+    archived_jobs = build_archived_jobs(seen, current_jobs, include, exclude, now)
+
     SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
     SEEN_PATH.write_text(json.dumps(seen, indent=2, sort_keys=True), encoding="utf-8")
     NEW_JOBS_JSON.write_text(
         json.dumps(
-            [{**asdict(job), "first_seen": seen[job.key]["first_seen"]} for job in new_jobs],
+            [
+                {
+                    **asdict(job),
+                    "first_seen": seen[job.key]["first_seen"],
+                    "status": "active",
+                }
+                for job in new_jobs
+            ],
             indent=2,
         ),
         encoding="utf-8",
@@ -389,11 +452,19 @@ def main() -> int:
     CURRENT_JOBS_JSON.write_text(
         json.dumps(
             [
-                {**asdict(job), "first_seen": seen[job.key]["first_seen"]}
+                {
+                    **asdict(job),
+                    "first_seen": seen[job.key]["first_seen"],
+                    "status": "active",
+                }
                 for job in current_jobs
             ],
             indent=2,
         ),
+        encoding="utf-8",
+    )
+    ARCHIVED_JOBS_JSON.write_text(
+        json.dumps(archived_jobs, indent=2),
         encoding="utf-8",
     )
     write_report(current_jobs, new_jobs, errors)

@@ -5,6 +5,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from job_tracker import (
+    Job,
+    build_archived_jobs,
     build_workday_url,
     extract_jobs,
     fetch_greenhouse_jobs,
@@ -216,6 +218,49 @@ class GreenhouseTests(unittest.TestCase):
         self.assertEqual("2026-08-17T12:00:00Z", jobs[0].posted_date)
         self.assertEqual("2026-09-30", jobs[0].due_date)
         self.assertEqual("Costa Mesa, CA", jobs[0].location)
+
+
+class ArchiveTests(unittest.TestCase):
+    def test_preserves_only_past_relevant_roles(self):
+        active = Job(
+            company="Example",
+            title="Systems Engineer I",
+            url="https://example.com/jobs/active",
+            source_url=SOURCE,
+        )
+        seen = {
+            "active": {
+                "company": "Example", "title": "Systems Engineer I",
+                "url": "https://example.com/jobs/old-active-url", "source_url": SOURCE,
+                "first_seen": "2026-08-01T00:00:00+00:00",
+                "last_seen": "2026-08-20T00:00:00+00:00",
+            },
+            "past": {
+                "company": "Example", "title": "Entry Level GNC Engineer",
+                "url": "https://example.com/jobs/past", "source_url": SOURCE,
+                "posted_date": "2026-07-20", "due_date": "2026-08-20",
+                "first_seen": "2026-08-01T00:00:00+00:00",
+                "last_seen": "2026-08-19T00:00:00+00:00",
+            },
+            "marketing": {
+                "company": "Example", "title": "Aerospace Engineering Careers",
+                "url": "https://example.com/stories/careers", "source_url": SOURCE,
+                "last_seen": "2026-08-18T00:00:00+00:00",
+            },
+            "senior": {
+                "company": "Example", "title": "Principle Mechanical Engineer",
+                "url": "https://example.com/jobs/senior", "source_url": SOURCE,
+                "last_seen": "2026-08-18T00:00:00+00:00",
+            },
+        }
+
+        archived = build_archived_jobs(
+            seen, [active], INCLUDE, EXCLUDE, "2026-08-25T00:00:00+00:00"
+        )
+
+        self.assertEqual(["Entry Level GNC Engineer"], [job["title"] for job in archived])
+        self.assertEqual("archived", archived[0]["status"])
+        self.assertEqual("2026-08-19T00:00:00+00:00", archived[0]["archived_at"])
 
 
 if __name__ == "__main__":
