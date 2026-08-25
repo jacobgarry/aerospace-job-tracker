@@ -1,4 +1,4 @@
-name: Weekly Aerospace Job Tracker
+name: Twice-Weekly Aerospace Job Tracker
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
       - "aerospace-job-tracker/tests/**"
       - "aerospace-job-tracker/config.yml"
   schedule:
-    # Sundays at 9:00 AM Eastern during daylight saving time (13:00 UTC).
-    - cron: "0 13 * * 0"
+    # Mondays and Thursdays at 9:00 AM Eastern during daylight saving time.
+    - cron: "0 13 * * 1,4"
   workflow_dispatch:
 
 permissions:
