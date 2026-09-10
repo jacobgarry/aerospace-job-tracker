@@ -1,30 +1,52 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-09-07 17:58 UTC**
+Generated: **2026-09-10 16:43 UTC**
 
-Matched listings found: **23**  
-New listings since the previous successful run: **9**
+Matched listings found: **30**  
+New listings since the previous successful run: **20**
 
 ## New Matches
 
-- **RTX — Analog & Power Electronics Engineer I**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Analog---Power-Electronics-Engineer-I_01871556)
-- **RTX — Associate Engineer - Planning**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-KA-BENGALURU-BLDG-1--Hitech-Defence--Aerospace-Park--HI-TECH-DEFENSE/Senior-Associate-Engineer---Planning_01861971)
-- **RTX — Ceramic Matrix Composite, Associate Engineer (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Ceramic-Matrix-Composite--Associate-Engineer--Onsite-_01869480)
-- **RTX — Digital Hardware Design Electrical Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WM--2501-W-University-Dr--WING-M-BLDG/Digital-Hardware-Design-Electrical-Engineer-I--Onsite-_01872576)
-- **RTX — Quality Analyst/Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN2--352-Lowell-St--AN2-HAMPSHIRE-BLDG/Quality-Analyst-Engineer-I--Onsite-_01871729)
-- **RTX — Software Engineer I (Hybrid - Aguadilla, PR)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Software-Engineer-I--Hybrid---Aguadilla--PR-_01870496)
-- **RTX — Structural Engineer - 1st Shift - Onsite | Advanced Structures**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/MX-BCN-MEXICALI-238B--Blvd-Venustiano-Carranza--238--BLDG-238B-Desarrollo-Industrial-Colorado/Structural-Engineer---1st-Shift---Onsite---Advanced-Structures_01871886)
-- **L3Harris — Specialist, Embedded Software Engineer - (Aerospace Flight) : Sign-on bonus ($15K Max) Engineering Wilmington, MA**  
-  [Open application](https://careers.l3harris.com/en/job/wilmington/specialist-embedded-software-engineer-aerospace-flight-sign-on-bonus-15k-max/4832/100102043968)
-- **L3Harris — Specialist, Systems Engineer Engineering Colorado Springs, CO**  
-  [Open application](https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/100293662464)
+- **RTX — Mechanical Engineer I - Test Solutions - Onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-800--1151-E-Hermans-Rd--BLDG-800/Mechanical-Engineer-I---Test-Solutions---Onsite_01836502)
+- **RTX — Mechanical Thermal Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Mechanical-Thermal-Engineer-I--Onsite-_01873508)
+- **RTX — Systems Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Systems-Engineer-I--Onsite-_01872323)
+- **Sierra Space — Dream Chaser Flight Controller - Systems Engineer I**  
+  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Dream-Chaser-Flight-Controller---Systems-Engineer-I_R26224-1)
+- **Sierra Space — Mechanical Engineer I (Contract)**  
+  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Mechanical-Engineer-I--Contract-_R26221-1)
+- **RTX — Antenna and Microwave Engineer I - Onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Engineer-I---Onsite_01873343)
+- **RTX — Associate Engineer (Hybrid)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Associate-Engineer--Hybrid-_01862213)
+- **RTX — Flight Control Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01871038)
+- **RTX — Flight Control Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01871018)
+- **RTX — Flight Control Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01870923)
+- **RTX — Flight Control Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01871083)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I---Onsite-_01872451)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I---Onsite-_01872452)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-I---Onsite-_01872445)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Engineer-I---Onsite-_01872447)
+- **RTX — Software Engineer I -(Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Software-Engineer-I---Onsite-_01868027)
+- **Sierra Space — Manufacturing Engineer I**  
+  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Manufacturing-Engineer-I_R26130-1)
+- **Sierra Space — Test Engineer I**  
+  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Test-Engineer-I_R26200-1)
+- **Boeing — Manufacturing Engineer - Structures & Propulsion - 1st Shift - Millennium Space Systems**  
+  [Open application](https://jobs.boeing.com/job/el-segundo/manufacturing-engineer-structures-and-propulsion-1st-shift-millennium-space-systems/185/96943923312)
+- **Boeing — Manufacturing Engineer - Structures & Propulsion - 2nd Shift - Millennium Space Systems**  
+  [Open application](https://jobs.boeing.com/job/el-segundo/manufacturing-engineer-structures-and-propulsion-2nd-shift-millennium-space-systems/185/97534580208)
 
 ## Notes
 
