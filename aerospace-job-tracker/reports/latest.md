@@ -1,40 +1,38 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-10-22 17:41 UTC**
+Generated: **2026-10-26 18:54 UTC**
 
-Matched listings found: **43**  
-New listings since the previous successful run: **14**
+Matched listings found: **48**  
+New listings since the previous successful run: **13**
 
 ## New Matches
 
-- **Anduril — 2027 New Graduate Mechanical Engineer**  
+- **Anduril — 2027 Early Career Mechanical Engineer**  
   [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5258587007?gh_jid=5258587007)
-- **RTX — Next Gen Systems Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-112--400-Collins-Rd-NE--BLDG-112/Next-Gen-Systems-Engineer-I--Onsite-_01857854)
-- **RTX — Systems Engineer I**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-848--1151-E-Hermans-Rd--BLDG-848/Systems-Engineer-I_01870892)
-- **Sierra Space — Systems Engineer I - Velocity Satellite Ground Systems**  
-  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/Systems-Engineer-I---Velocity-Satellite-Ground-Systems_R26457-1)
+- **Boeing — Entry Level or Associate Aerospace Safety Engineer**  
+  [Open application](https://jobs.boeing.com/job/mesa/entry-level-or-associate-aerospace-safety-engineer/185/102446753664)
+- **RTX — Mechanical Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Mechanical-Engineer-I--Onsite-_01884498)
+- **RTX — Systems Engineer I - Onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Systems-Engineer-I---Onsite_01883286)
+- **Anduril — 2027 New Grad Low Observables Engineer**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5269789007?gh_jid=5269789007)
+- **RTX — Associate Engineer - Embedded V&V**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Lead-Engineer_01866087)
 - **RTX — Embedded Security Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-800--1151-E-Hermans-Rd--BLDG-800/Embedded-Security-Software-Engineer-I--Onsite-_01881370)
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Embedded-Security-Software-Engineer--Onsite-_01881362)
+- **RTX — Embedded Security Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R01--2000-E-Imperial-Hwy--BLDG-R01/Embedded-Security-Software-Engineer-I--Onsite-_01881355)
+- **RTX — Embedded Software Security Engineer I**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Embedded-Software-Security-Engineer-I_01884615)
+- **RTX — Engineer I, Software Engineer - Test Engineering (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MN-BURNSVILLE-WEST--14300-Judicial-Rd--WEST-BLDG/Engineer-I--Software-Engineer---Test-Engineering--Onsite-_01883521)
+- **RTX — FPGA Electrical Engineer I - Onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/FPGA-Electrical-Engineer-I---Onsite_01884443)
+- **RTX — Quality Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-B03--75-Coromar-Dr--BLDG-B03/Quality-Engineer-I--Onsite-_01883370)
 - **RTX — Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-107--400-Collins-Rd-NE--BLDG-107/Software-Engineer-I--Onsite-_01872684)
-- **RTX — Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MD-FULTON-8170--8170-Maple-Lawn-Blvd--MAPLE-LAWN-Ste-190-200--300/Software-Engineer-I--Onsite-_01883899)
-- **RTX — Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I--Onsite-_01873222)
-- **Sierra Space — RF Engineer I**  
-  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Broomfield-CO/RF-Engineer-I_R26443-1)
-- **Anduril — Classified Systems Engineer**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5267122007?gh_jid=5267122007)
-- **Blue Origin — Mechanical Engineer - TeraWave Customer Terminals**  
-  [Open application](https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Cupertino-CA/Mechanical-Engineer----TeraWave-Customer-Terminals_R74510)
-- **Boeing — Aircraft Maintenance Engineer (Avionics)**  
-  [Open application](https://jobs.boeing.com/job/townsville/aircraft-maintenance-engineer-avionics/185/97611419520)
-- **Boeing — Avionics and Electrical Engineer**  
-  [Open application](https://jobs.boeing.com/job/amberley/avionics-and-electrical-engineer/185/101700456768)
-- **Boeing — P-8A Avionics Engineer**  
-  [Open application](https://jobs.boeing.com/job/edinburgh/p-8a-avionics-engineer/185/101729352672)
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Software-Engineer-I--Onsite-_01883492)
 
 ## Notes
 
