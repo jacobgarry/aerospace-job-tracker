@@ -155,7 +155,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-05-07T20:45:01-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -279,11 +279,22 @@
     "title": "Boeing in Washington, D.C.",
     "url": "https://jobs.boeing.com/boeing-in-the-DC-metro"
   },
+  "0be55c8922c09e293d6278cb1ca1344ff4adc42df8734c51fddd65eb0594df5a": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-CA-GOLETA-B01 ~ 6825 Cortona Dr ~ BLDG B01",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Semiconductor Manufacturing Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-B01--6825-Cortona-Dr--BLDG-B01/Semiconductor-Manufacturing-Engineer-I_01885601"
+  },
   "0c09d7045156ac9ae00c0d1521cd77a79c2a422a52bbaa5d3c06d2d5d0dd16ae": {
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "McHenry, Mississippi, United States",
     "posted_date": "2026-09-10T13:32:22-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -339,6 +350,17 @@
     "title": "Systems Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Systems-Engineer-I_R26250"
   },
+  "0f37edcac251cb7cdc874549544053017a77ee07cb41bde8711e6b769e221648": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-IN-FT WAYNE-150A ~ 1010 Production Rd ~ BLDG 150A",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Electrical Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical-Engineer-I_01884551"
+  },
   "0fbb31fb548af823988e0cebda39fc5d823e18124ab6474e346e1318f08322fe": {
     "company": "Boeing",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -381,9 +403,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Durham, NC",
-    "posted_date": "Posted 15 Days Ago",
+    "posted_date": "Posted 18 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mechanical Engineer I (Mechanisms)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Durham-NC/Mechanical-Engineer-I--Mechanisms-_R26386-1"
@@ -411,12 +433,23 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-09-10T13:31:23-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "Controls Engineer, Manufacturing Automation",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234512007?gh_jid=5234512007"
+  },
+  "13a17f939cb27ca1feba84bc0eb93b0b21469d1a3d69821b5c9442d37daf287a": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-AZ-TUCSON-928 ~ 1151 E Hermans Rd ~ MULTI PURPOSE FAC 928",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Mechanical Engineer I - GBE",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-928--1151-E-Hermans-Rd--MULTI-PURPOSE-FAC-928/Mechanical-Engineer-I---GBE_01885818"
   },
   "144d9731e48a874fd254d30ffd6787780e461b9a83a98f115830ee51f50adef2": {
     "company": "Lockheed Martin",
@@ -594,7 +627,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-10-12T21:26:35.819169+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Boston, Massachusetts, United States; Boulder, Colorado, United States; Costa Mesa, California, United States; Foothill Ranch, California, United States; Huntsville, Alabama, United States; Reston, Virginia, United States; Seattle, Washington, United States; Washington, District of Columbia, United States",
     "posted_date": "2026-10-09T12:28:14-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -712,9 +745,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Broomfield, CO",
-    "posted_date": "Posted 19 Days Ago",
+    "posted_date": "Posted 22 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mechanical Engineer I (Solar Arrays)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Broomfield-CO/Mechanical-Engineer-I--Solar-Arrays-_R26387-2"
@@ -872,7 +905,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-10-26T18:54:25.329492+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-10-23T16:22:29-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -1205,6 +1238,17 @@
     "title": "Software Engineer I (Onsite)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I---Onsite-_01872452"
   },
+  "3a27ca7c23cdfda0eb28a698bdf679705d2a52e2c951906084e8d99feb518fbb": {
+    "company": "Boeing",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "title": "Systems Engineer (Aerospace)",
+    "url": "https://jobs.boeing.com/job/bristol/systems-engineer-aerospace/185/102202451104"
+  },
   "3bb86392b9ecf2cd1211e056a52f787fc245c93e4a8ad340c486a265d32192b6": {
     "company": "RTX",
     "first_seen": "2026-08-16T13:56:17.179771+00:00",
@@ -1523,9 +1567,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-12T21:26:35.819169+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 17 Days Ago",
+    "posted_date": "Posted 20 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mechanical Engineer I (Thermal Design)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/Mechanical-Engineer-I--Thermal-Design-_R26385-1"
@@ -1586,9 +1630,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Centennial, CO",
-    "posted_date": "Posted 14 Days Ago",
+    "posted_date": "Posted 17 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Loads & Dynamics Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/Loads---Dynamics-Engineer-I_R26356-1"
@@ -2120,6 +2164,17 @@
     "title": "Accelerating Transformation",
     "url": "https://www.lockheedmartin.com/en-us/capabilities/accelerating-transformation.html"
   },
+  "68e2da0d137b96bef0f230c0a66808ae4c70e10a220afe5836dcc76dd513db7c": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Software Engineer I (Hybrid - Aguadilla, PR)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Software-Engineer-I--Hybrid---Aguadilla--PR-_01884363"
+  },
   "69187405782eaff88298b69aef6f3ef9a0e6165ebf46adf60b7339cc819034cd": {
     "company": "Boeing",
     "due_date": null,
@@ -2258,9 +2313,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 19 Days Ago",
+    "posted_date": "Posted 22 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Thermal Analysis Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Thermal-Analysis-Engineer-I_R26353"
@@ -2471,7 +2526,7 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-09-10T16:43:21.923678+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Louisville, CO",
     "posted_date": "Posted 30+ Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
@@ -2663,12 +2718,23 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-05-07T13:10:48-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
     "title": "AD&S, Air Vehicle Software Systems Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5131822007?gh_jid=5131822007"
+  },
+  "8549883619970404d068061b683f013556dce82c67aa2e5160f289199bfb289c": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-CA-SAN JOSE-826 ~ 200 Holger Way ~ BLDG 826",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Software Engineer I (Onsite)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826/Software-Engineer-I--Onsite-_01885857"
   },
   "85f281c8ebc7043d0f3701a5da73308b1ae4fb38746b20ce0be1ca1fa4c422eb": {
     "company": "Lockheed Martin",
@@ -2682,9 +2748,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-15T17:26:07.493895+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "3 Locations",
-    "posted_date": "Posted 7 Days Ago",
+    "posted_date": "Posted 10 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Material Science Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Material-Science-Engineer-I_R26360-1"
@@ -2742,7 +2808,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
     "posted_date": "2026-06-11T13:26:52-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -2913,6 +2979,17 @@
     "title": "Tristan Crumley | Design Engineer Intern",
     "url": "https://jobs.boeing.com/TristanCrumley"
   },
+  "9403b5cb04a9c4732a62dedb87045ac8b3a71a89aa392be46fa307f175a9cf86": {
+    "company": "Anduril",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "Costa Mesa, California, United States",
+    "posted_date": "2026-10-28T17:47:56-04:00",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "title": "2027 New Grad GNC Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5270855007?gh_jid=5270855007"
+  },
   "956d76d2519120ee388909e9d7b6c6b54643f2b4f9c3fe57a96a4f2f6e858c35": {
     "company": "Boeing",
     "due_date": null,
@@ -3051,9 +3128,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 19 Days Ago",
+    "posted_date": "Posted 22 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mission Design Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/Mission-Design-Engineer-I_R26354"
@@ -3141,9 +3218,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 19 Days Ago",
+    "posted_date": "Posted 22 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Software Engineer I - DevOps / DevSecOps",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Software-Engineer-I---DevOps---DevSecOps_R26394-1"
@@ -3369,6 +3446,17 @@
     "title": "Associate Engineer-Production",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-KA-BENGALURU-BLDG-1--Hitech-Defence--Aerospace-Park--HI-TECH-DEFENSE/Associate-Engineer-Production_01868698"
   },
+  "a7c97fcdfb524d8b8d55d69e3487bb94b8029364dd449566b92bdb7afca915f2": {
+    "company": "L3Harris",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Specialist Systems Engineer Engineering Carlsbad, CA",
+    "url": "https://careers.l3harris.com/en/job/carlsbad/specialist-systems-engineer/4832/102600827296"
+  },
   "a7e09f2a46b2a67155034050ea20559bfa258d0d497d758e71e708194a27e454": {
     "company": "Lockheed Martin",
     "first_seen": "2026-08-07T01:52:13.748434+00:00",
@@ -3395,6 +3483,17 @@
     "source_url": "https://jobs.boeing.com/search-jobs",
     "title": "Match your skills to aerospace manufacturing careers",
     "url": "https://jobs.boeing.com/manufacturing-job-skill-match"
+  },
+  "a847c53943dade51934b271913bed1d8f24fe7fa8200d6443503fa38350e0cac": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-AZ-TUCSON-M02 ~ 1151 E Hermans Rd ~ BLDG M02",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "RF Mechanical Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/RF-Mechanical-Engineer-I_01885794-1"
   },
   "a85b150c9f9fa036cb179a45c5e29cea0f272939042cf7c2cbeb23b138284cff": {
     "company": "Boeing",
@@ -3547,7 +3646,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-10-26T18:54:25.329492+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Dublin, Dublin, Ireland",
     "posted_date": "2026-10-21T08:32:24-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -3710,6 +3809,17 @@
     "title": "Analog & Power Electrical Engineer I - Onsite",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Analog---Power-Electrical-Engineer-I---Onsite_01880527"
   },
+  "b6c4108d658a989bfdbe99b821d3b575e3b26af6d20bf5070fe68803096811ed": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-AL-HUNTSVILLE-315 ~ 315 Bob Heath Dr ~ BOB HEATH",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Electrical Production Support REA Engineer I - Onsite",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AL-HUNTSVILLE-315--315-Bob-Heath-Dr--BOB-HEATH/Electrical-Production-Support-REA-Engineer-I---Onsite_01885401"
+  },
   "b7ec767244450bfaaecaf48bfd7084858ae4057d2396cc01d9f43f7a33b8d6e8": {
     "company": "RTX",
     "due_date": null,
@@ -3818,9 +3928,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-12T21:26:35.819169+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 17 Days Ago",
+    "posted_date": "Posted 20 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Mechanical Engineer I (Environmental/Propulsion)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Madison-WI/Mechanical-Engineer-I--Environmental-Propulsion-_R26388-1"
@@ -3921,6 +4031,17 @@
     "title": "Systems Engineer I - Lifecycle Engineering- Onsite",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Systems-Engineer-I---Lifecycle-Engineering--Onsite_01880783"
   },
+  "c5f5223805a2b3475b0666d0628fe4bfa4a9e96b607c008780b8c31de02281a6": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-CA-GOLETA-B01 ~ 6825 Cortona Dr ~ BLDG B01",
+    "posted_date": "Posted Yesterday",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Vision Systems - Test Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-B01--6825-Cortona-Dr--BLDG-B01/Vision-Systems---Test-Engineer-I_01877795"
+  },
   "c67284fbce2ab615b347411284a2a178948adbb054930cbef555e755da07d665": {
     "company": "RTX",
     "due_date": null,
@@ -4010,7 +4131,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-08-09T14:56:43.428393+00:00",
-    "last_seen": "2026-10-22T17:41:59.025355+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-08-07T10:44:28-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -4021,7 +4142,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-09-10T13:31:29-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -4303,6 +4424,17 @@
     "title": "Skip to main content",
     "url": "https://jobs.boeing.com/search-jobs#content"
   },
+  "d84871b370a1b5810749054dabb0bdbcff9b468d483a1b94fd7ba8bf38a751e7": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-CA-EL SEGUNDO-R02 ~ 1970 E Imperial Hwy ~ BLDG R02",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Power Electronics Engineer I - Onsite",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-R02--1970-E-Imperial-Hwy--BLDG-R02/Power-Electronics-Engineer-I---Onsite_01883964"
+  },
   "d84f49607d9cc5821b85789a14724525a8b3223eb23dfcf6f5411342005aca7b": {
     "company": "RTX",
     "first_seen": "2026-08-16T13:56:17.179771+00:00",
@@ -4408,9 +4540,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-22T17:41:59.025355+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Broomfield, CO",
-    "posted_date": "Posted 5 Days Ago",
+    "posted_date": "Posted 8 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "RF Engineer I",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Broomfield-CO/RF-Engineer-I_R26443-1"
@@ -4504,9 +4636,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-15T17:26:07.493895+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 13 Days Ago",
+    "posted_date": "Posted 16 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Software Engineer I - Flight Software",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Software-Engineer-I---Flight-Software_R26390-1"
@@ -4561,7 +4693,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-09-10T13:31:25-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -4605,9 +4737,9 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-10-08T19:02:58.783634+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
-    "posted_date": "Posted 19 Days Ago",
+    "posted_date": "Posted 22 Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
     "title": "Structural Analysis Engineer I (Stress Analysis)",
     "url": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Centennial-CO/Structural-Analysis-Engineer-I--Stress-Analysis-_R26355-1"
@@ -4679,7 +4811,7 @@
     "company": "Sierra Space",
     "due_date": null,
     "first_seen": "2026-08-18T03:55:48.294180+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "2 Locations",
     "posted_date": "Posted 30+ Days Ago",
     "source_url": "https://www.sierraspace.com/careers/",
@@ -4748,6 +4880,17 @@
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Systems Engineer I - Electronic Warfare",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Systems-Engineer-I---Electronic-Warfare_01852305"
+  },
+  "ede4422dd025efc67dc85634aa363eb4a4024dc991a35d91810a2c11486beaf6": {
+    "company": "L3Harris",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Specialist, Systems Engineer Engineering Palm Bay, Brevard, FL",
+    "url": "https://careers.l3harris.com/en/job/palm-bay/specialist-systems-engineer/4832/101292622800"
   },
   "edf3223db6eb5cb2b070ff302e012a1285d455ed4b9288fb9a7b37d4ba2caa6a": {
     "company": "RTX",
@@ -4838,7 +4981,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-10-22T17:41:59.025355+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-10-15T20:09:50-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -4904,6 +5047,17 @@
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Tooling Design Engineer I",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Tooling-Design-Engineer-I_01876922"
+  },
+  "f45dd81f7175cb5f86be92ec023a4055546bd519c00f8e86c8aa0b226c6c7c82": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Software Security Engineer I",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Software-Security-Engineer-I_01885443"
   },
   "f4bba880020403c2c14d60c053fa5aa82eb13c4d23f0143dd05bb140360aeb0d": {
     "company": "Sierra Space",
@@ -5081,7 +5235,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Ashville, Ohio, United States",
     "posted_date": "2026-09-10T13:29:18-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -5189,6 +5343,17 @@
     "title": "Flight Control Software Engineer I (Onsite)",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Flight-Control-Software-Engineer-I--Onsite-_01871018"
   },
+  "fe24f61ab3e30bd40c75a4f40abd3a176714c4c0e1541dc2e2071c51afcaefa4": {
+    "company": "RTX",
+    "due_date": null,
+    "first_seen": "2026-10-29T18:41:56.724345+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
+    "location": "US-TX-MCKINNEY-513WD ~ 2501 W University Dr ~ WING D BLDG",
+    "posted_date": "Posted Today",
+    "source_url": "https://careers.rtx.com/global/en/search-results",
+    "title": "Component Electrical Engineer I (Hybrid)",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Component-Electrical-Engineer-I--Hybrid-_01884915"
+  },
   "feea8746d781b830c179ee4b88ae7aec295f685cf345c161b61481cf4516f388": {
     "company": "Sierra Space",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
@@ -5247,7 +5412,7 @@
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-09-24T17:36:50.523682+00:00",
-    "last_seen": "2026-10-26T18:54:25.329492+00:00",
+    "last_seen": "2026-10-29T18:41:56.724345+00:00",
     "location": "Costa Mesa, California, United States",
     "posted_date": "2026-09-22T14:42:01-04:00",
     "source_url": "https://www.anduril.com/open-roles/",
