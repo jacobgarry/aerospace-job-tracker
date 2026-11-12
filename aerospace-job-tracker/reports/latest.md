@@ -1,38 +1,44 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-11-09 22:46 UTC**
+Generated: **2026-11-12 20:31 UTC**
 
-Matched listings found: **29**  
-New listings since the previous successful run: **13**
+Matched listings found: **32**  
+New listings since the previous successful run: **16**
 
 ## New Matches
 
-- **RTX — Systems Engineer I - Tac Comm**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Systems-Engineer-I---Tac-Comm_01888310-1)
-- **RTX — Avionics Test Engineer I- Onsite**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MD-ANNAPOLIS-906--2551-Riva-Rd--BLDG-906/Avionics-Test-Engineer_01883832)
-- **RTX — Embedded Security Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Embedded-Security-Software-Engineer-I--Onsite-_01888154)
-- **RTX — Embedded Software Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Embedded-Software-Engineer-I--Onsite-_01888147)
-- **RTX — FPGA/ Digital Design Engineer I - Onsite**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-TX-MCKINNEY-513WA--2501-W-University-Dr--WING-A-BLDG/FPGA--Digital-Design-Engineer-I---Onsite_01879328)
-- **RTX — Gear Turbo Fan High Pressure Compressor Design Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-MIDDLETOWN-130--Aircraft-Rd--BLDG-130/Gear-Turbo-Fan-High-Pressure-Compressor-Design-Engineer-I--Onsite-_01886686)
+- **RTX — Mechanical Systems Design Rotational Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Mechanical-Systems-Design-Rotational-Engineer-I--Onsite-_01883608)
+- **RTX — Associate Engineer(Systems verification and Validation,1-3 years exp)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer-Systems-verification-and-Validation-1-3-years-exp-_01858714)
+- **RTX — Mechanical Engineer I**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Mechanical-Engineer-I_01881401)
+- **RTX — Associate Engineer**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/IN-TS-HYDERABAD-B3F7--DLF-Cybercity-Gachibowli--DLF-CYBERCITY-GACHIBOWLI-B3F7-7th-Fl-in-Block-3/Associate-Engineer_01885263)
+- **RTX — Associate Software Engineer I – CDS / Engine System Software (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Associate-Software-Engineer-I---CDS---Engine-System-Software--Onsite-_01884197)
+- **RTX — Components Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Components-Engineer-I--Onsite-_01889186)
+- **RTX — Digital Design Engineer I - onsite**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Digital-Design-Engineer-I---onsite_01888918)
+- **RTX — Electrical Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-928--1151-E-Hermans-Rd--MULTI-PURPOSE-FAC-928/Electrical-Engineer-I---Hardware-Engineering_01879465)
+- **RTX — Embedded Software Security Engineer I - S3E**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Embedded-Software-Security-Engineer-I---S3E_01878692)
 - **RTX — Manufacturing Engineer I (Onsite - Puerto Rico)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-SANTA-ISABEL-B1--Felicia-Industrial-Park---St-B1--BLDG-1/Manufacturing-Engineer-I--Onsite---Puerto-Rico-_01887783)
-- **RTX — Manufacturing Engineer I (Onsite)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN5--356-Lowell-St--AN5-BRISTOL-BLDG/Manufacturing-Engineer-I--Onsite-_01887678)
-- **RTX — Manufacturing Engineer I - 3rd Shift**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN2--352-Lowell-St--AN2-HAMPSHIRE-BLDG/Manufacturing-Engineer_01886921)
-- **RTX — Test and Validation Engineer I**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-ANDOVER-AN1--350-Lowell-St--AN1-ESSEX-BLDG/Test-and-Validation-Engineer-I_01888408)
-- **Boeing — Flight Sciences Engineer – Guidance, Navigation, and Control (GNC) - Relocation Assistance Available**  
-  [Open application](https://jobs.boeing.com/job/bingen/flight-sciences-engineer-guidance-navigation-and-control-gnc-relocation-assistance-available/185/103051368992)
-- **RTX — Mechanical Engineer, P2 – Engineering Support to Operations (ESTO) - (On-site)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Mechanical-Engineer--P2---Engineering-Support-to-Operations--ESTO-----On-site-_01881896)
-- **RTX — Software Engineer (Embedded)**  
-  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineer--Embedded-_01887664)
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-PR-SANTA-ISABEL-B2--Felicia-Industrial-Park---St-B2--BLDG-2/Manufacturing-Engineer-I--Onsite---Puerto-Rico-_01887198)
+- **RTX — Software Engineer I (Onsite)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineer-I--Onsite-_01888058)
+- **Sierra Space — Software Engineer I - DevOps / DevSecOps**  
+  [Open application](https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/REQ-SWAP-Software-Engineer-I---DevOps---DevSecOps_R26535)
+- **Boeing — Mid-Level Guidance Navigation & Control (GNC) Engineer**  
+  [Open application](https://jobs.boeing.com/job/berkeley/mid-level-guidance-navigation-and-control-gnc-engineer/185/103216687008)
+- **Blue Origin — Aerospace Systems Engineer**  
+  [Open application](https://blueorigin.wd5.myworkdayjobs.com/en-US/BlueOrigin/job/Denver-CO/Aerospace-Systems-Engineer_R74549)
+- **RTX — LabVIEW Software & Test Systems Engineer**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-IL-ROCKFORD-P1--2421-11th-St--2421-11TH-ST-P1/LabVIEW-Software---Test-Systems-Engineer_01888987)
+- **RTX — Systems Engineer (ONSITE)**  
+  [Open application](https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Systems-Engineer--ONSITE-_01886366)
 
 ## Sources Needing Attention
 
