@@ -1,21 +1,32 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-11-16 22:36 UTC**
+Generated: **2026-11-19 21:02 UTC**
 
-Matched listings found: **1**  
-New listings since the previous successful run: **1**
+Matched listings found: **22**  
+New listings since the previous successful run: **7**
 
 ## New Matches
 
-- **Boeing — Optical Systems Engineer (Mid-Career) - Millennium Space Systems**  
-  [Open application](https://jobs.boeing.com/job/el-segundo/optical-systems-engineer-mid-career-millennium-space-systems/185/103395203920)
+- **Anduril — 2027 New Grad Information Security Engineer**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5270839007?gh_jid=5270839007)
+- **Anduril — Associate Mechanical Engineer, Actuators**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5286571007?gh_jid=5286571007)
+- **Anduril — Autonomous Flight Test Engineer, Rotorcraft**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5206291007?gh_jid=5206291007)
+- **Anduril — Avionics Systems Engineer, Space**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5300687007?gh_jid=5300687007)
+- **Anduril — Battery Mechanical Engineer**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5290138007?gh_jid=5290138007)
+- **Anduril — Battery Systems Engineer**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5290158007?gh_jid=5290158007)
+- **Anduril — Avionics Maintenance Engineer - Advanced Effects**  
+  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007)
 
 ## Sources Needing Attention
 
 - **RTX:** HTTPError while checking `https://careers.rtx.com/global/en/search-results`
 - **Sierra Space:** HTTPError while checking `https://www.sierraspace.com/careers/`
 - **Blue Origin:** HTTPError while checking `https://www.blueorigin.com/careers/search`
-- **Anduril:** ReadTimeout while checking `https://www.anduril.com/open-roles/`
 
 ## Notes
 
