@@ -1,26 +1,14 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-11-19 21:02 UTC**
+Generated: **2026-11-24 00:26 UTC**
 
 Matched listings found: **22**  
-New listings since the previous successful run: **7**
+New listings since the previous successful run: **1**
 
 ## New Matches
 
-- **Anduril — 2027 New Grad Information Security Engineer**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5270839007?gh_jid=5270839007)
-- **Anduril — Associate Mechanical Engineer, Actuators**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5286571007?gh_jid=5286571007)
-- **Anduril — Autonomous Flight Test Engineer, Rotorcraft**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5206291007?gh_jid=5206291007)
-- **Anduril — Avionics Systems Engineer, Space**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5300687007?gh_jid=5300687007)
-- **Anduril — Battery Mechanical Engineer**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5290138007?gh_jid=5290138007)
-- **Anduril — Battery Systems Engineer**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5290158007?gh_jid=5290158007)
-- **Anduril — Avionics Maintenance Engineer - Advanced Effects**  
-  [Open application](https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007)
+- **L3Harris — Specialist, Systems Engineer Engineering Colorado Springs, CO**  
+  [Open application](https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512)
 
 ## Sources Needing Attention
 

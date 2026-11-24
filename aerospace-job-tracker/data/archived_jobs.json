@@ -1,5 +1,18 @@
 [
   {
+    "company": "Anduril",
+    "due_date": null,
+    "first_seen": "2026-11-19T21:02:48.659848+00:00",
+    "last_seen": "2026-11-19T21:02:48.659848+00:00",
+    "location": "Costa Mesa, California, United States",
+    "posted_date": "2026-10-08T16:14:06-04:00",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "title": "Avionics Maintenance Engineer - Advanced Effects",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007",
+    "status": "archived",
+    "archived_at": "2026-11-19T21:02:48.659848+00:00"
+  },
+  {
     "company": "Boeing",
     "due_date": null,
     "first_seen": "2026-11-16T22:36:13.725713+00:00",
@@ -3207,19 +3220,6 @@
     "source_url": "https://careers.rtx.com/global/en/search-results",
     "title": "Analog & Power Electronics Engineer I",
     "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/REC_RTX_Ext_Gateway/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/Analog---Power-Electronics-Engineer-I_01871556",
-    "status": "archived",
-    "archived_at": "2026-09-07T17:58:11.614543+00:00"
-  },
-  {
-    "company": "L3Harris",
-    "due_date": null,
-    "first_seen": "2026-09-07T17:58:11.614543+00:00",
-    "last_seen": "2026-09-07T17:58:11.614543+00:00",
-    "location": null,
-    "posted_date": null,
-    "source_url": "https://careers.l3harris.com/en/search-jobs",
-    "title": "Specialist, Systems Engineer Engineering Colorado Springs, CO",
-    "url": "https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/100293662464",
     "status": "archived",
     "archived_at": "2026-09-07T17:58:11.614543+00:00"
   },

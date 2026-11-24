@@ -1,5 +1,16 @@
 [
   {
+    "company": "L3Harris",
+    "title": "Specialist, Systems Engineer Engineering Colorado Springs, CO",
+    "url": "https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-24T00:26:13.713446+00:00",
+    "status": "active"
+  },
+  {
     "company": "Anduril",
     "title": "2027 Early Career Flight Test Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5246225007?gh_jid=5246225007",
@@ -133,17 +144,6 @@
   },
   {
     "company": "Anduril",
-    "title": "Avionics Maintenance Engineer - Advanced Effects",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5261629007?gh_jid=5261629007",
-    "source_url": "https://www.anduril.com/open-roles/",
-    "posted_date": "2026-10-08T16:14:06-04:00",
-    "due_date": null,
-    "location": "Costa Mesa, California, United States",
-    "first_seen": "2026-11-19T21:02:48.659848+00:00",
-    "status": "active"
-  },
-  {
-    "company": "Anduril",
     "title": "Avionics Systems Engineer, Space",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5300687007?gh_jid=5300687007",
     "source_url": "https://www.anduril.com/open-roles/",
@@ -211,9 +211,9 @@
   {
     "company": "Anduril",
     "title": "Controls Engineer, Manufacturing Automation",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234512007?gh_jid=5234512007",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234556007?gh_jid=5234556007",
     "source_url": "https://www.anduril.com/open-roles/",
-    "posted_date": "2026-09-10T13:31:23-04:00",
+    "posted_date": "2026-09-10T13:31:29-04:00",
     "due_date": null,
     "location": "Costa Mesa, California, United States",
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
@@ -222,9 +222,9 @@
   {
     "company": "Anduril",
     "title": "Controls Engineer, Manufacturing Automation",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234556007?gh_jid=5234556007",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5234512007?gh_jid=5234512007",
     "source_url": "https://www.anduril.com/open-roles/",
-    "posted_date": "2026-09-10T13:31:29-04:00",
+    "posted_date": "2026-09-10T13:31:23-04:00",
     "due_date": null,
     "location": "Costa Mesa, California, United States",
     "first_seen": "2026-09-14T18:14:18.444325+00:00",
