@@ -1,13 +1,46 @@
 [
   {
+    "company": "Boeing",
+    "title": "Systems Engineer",
+    "url": "https://jobs.boeing.com/job/brisbane/systems-engineer/185/103805255808",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
+    "company": "Boeing",
+    "title": "Spacecraft Systems Engineer (Mid-Career), Second shift - Millennium Space Systems",
+    "url": "https://jobs.boeing.com/job/el-segundo/spacecraft-systems-engineer-mid-career-second-shift-millennium-space-systems/185/103798678000",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
     "company": "L3Harris",
-    "title": "Specialist, Systems Engineer Engineering Colorado Springs, CO",
-    "url": "https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512",
+    "title": "Mechanical Engineer Engineering Multiple Locations",
+    "url": "https://careers.l3harris.com/en/job/portchester/mechanical-engineer/4832/103826823552",
     "source_url": "https://careers.l3harris.com/en/search-jobs",
     "posted_date": null,
     "due_date": null,
     "location": null,
-    "first_seen": "2026-11-24T00:26:13.713446+00:00",
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
+    "company": "L3Harris",
+    "title": "Safety Systems Engineer Engineering Brighton, England",
+    "url": "https://careers.l3harris.com/en/job/brighton/safety-systems-engineer/4832/102544211520",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
     "status": "active"
   }
 ]

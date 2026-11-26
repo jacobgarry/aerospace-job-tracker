@@ -1,13 +1,46 @@
 [
   {
+    "company": "Boeing",
+    "title": "Systems Engineer",
+    "url": "https://jobs.boeing.com/job/brisbane/systems-engineer/185/103805255808",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
+    "company": "Boeing",
+    "title": "Spacecraft Systems Engineer (Mid-Career), Second shift - Millennium Space Systems",
+    "url": "https://jobs.boeing.com/job/el-segundo/spacecraft-systems-engineer-mid-career-second-shift-millennium-space-systems/185/103798678000",
+    "source_url": "https://jobs.boeing.com/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
     "company": "L3Harris",
-    "title": "Specialist, Systems Engineer Engineering Colorado Springs, CO",
-    "url": "https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512",
+    "title": "Mechanical Engineer Engineering Multiple Locations",
+    "url": "https://careers.l3harris.com/en/job/portchester/mechanical-engineer/4832/103826823552",
     "source_url": "https://careers.l3harris.com/en/search-jobs",
     "posted_date": null,
     "due_date": null,
     "location": null,
-    "first_seen": "2026-11-24T00:26:13.713446+00:00",
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
+    "status": "active"
+  },
+  {
+    "company": "L3Harris",
+    "title": "Safety Systems Engineer Engineering Brighton, England",
+    "url": "https://careers.l3harris.com/en/job/brighton/safety-systems-engineer/4832/102544211520",
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "posted_date": null,
+    "due_date": null,
+    "location": null,
+    "first_seen": "2026-11-26T21:59:36.344786+00:00",
     "status": "active"
   },
   {
@@ -24,23 +57,23 @@
   {
     "company": "Anduril",
     "title": "2027 Early Career Mechanical Engineer",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5258587007?gh_jid=5258587007",
-    "source_url": "https://www.anduril.com/open-roles/",
-    "posted_date": "2026-10-21T08:32:24-04:00",
-    "due_date": null,
-    "location": "Dublin, Dublin, Ireland",
-    "first_seen": "2026-10-26T18:54:25.329492+00:00",
-    "status": "active"
-  },
-  {
-    "company": "Anduril",
-    "title": "2027 Early Career Mechanical Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5136984007?gh_jid=5136984007",
     "source_url": "https://www.anduril.com/open-roles/",
     "posted_date": "2026-06-11T13:26:52-04:00",
     "due_date": null,
     "location": "Atlanta, Georgia, United States; Boston, Massachusetts, United States; Broomfield, Colorado, United States; Colorado Springs, Colorado, United States; Costa Mesa, California, United States; Fort Collins, Colorado, United States; Irvine, California, United States; Reston, Virginia, United States; Seattle, Washington, United States",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
+    "status": "active"
+  },
+  {
+    "company": "Anduril",
+    "title": "2027 Early Career Mechanical Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5258587007?gh_jid=5258587007",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "posted_date": "2026-10-21T08:32:24-04:00",
+    "due_date": null,
+    "location": "Dublin, Dublin, Ireland",
+    "first_seen": "2026-10-26T18:54:25.329492+00:00",
     "status": "active"
   },
   {
@@ -107,17 +140,6 @@
     "due_date": null,
     "location": "Costa Mesa, California, United States",
     "first_seen": "2026-08-07T02:52:58.657776+00:00",
-    "status": "active"
-  },
-  {
-    "company": "Anduril",
-    "title": "Applied LLM Systems Engineer",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5197253007?gh_jid=5197253007",
-    "source_url": "https://www.anduril.com/open-roles/",
-    "posted_date": "2026-08-07T10:44:28-04:00",
-    "due_date": null,
-    "location": "Costa Mesa, California, United States",
-    "first_seen": "2026-08-09T14:56:43.428393+00:00",
     "status": "active"
   },
   {

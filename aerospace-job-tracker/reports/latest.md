@@ -1,14 +1,20 @@
 # Aerospace Job Tracker — Latest Run
 
-Generated: **2026-11-24 00:26 UTC**
+Generated: **2026-11-26 21:59 UTC**
 
-Matched listings found: **22**  
-New listings since the previous successful run: **1**
+Matched listings found: **24**  
+New listings since the previous successful run: **4**
 
 ## New Matches
 
-- **L3Harris — Specialist, Systems Engineer Engineering Colorado Springs, CO**  
-  [Open application](https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512)
+- **Boeing — Spacecraft Systems Engineer (Mid-Career), Second shift - Millennium Space Systems**  
+  [Open application](https://jobs.boeing.com/job/el-segundo/spacecraft-systems-engineer-mid-career-second-shift-millennium-space-systems/185/103798678000)
+- **Boeing — Systems Engineer**  
+  [Open application](https://jobs.boeing.com/job/brisbane/systems-engineer/185/103805255808)
+- **L3Harris — Mechanical Engineer Engineering Multiple Locations**  
+  [Open application](https://careers.l3harris.com/en/job/portchester/mechanical-engineer/4832/103826823552)
+- **L3Harris — Safety Systems Engineer Engineering Brighton, England**  
+  [Open application](https://careers.l3harris.com/en/job/brighton/safety-systems-engineer/4832/102544211520)
 
 ## Sources Needing Attention
 

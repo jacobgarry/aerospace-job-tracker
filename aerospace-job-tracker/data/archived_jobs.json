@@ -1,5 +1,31 @@
 [
   {
+    "company": "L3Harris",
+    "due_date": null,
+    "first_seen": "2026-11-24T00:26:13.713446+00:00",
+    "last_seen": "2026-11-24T00:26:13.713446+00:00",
+    "location": null,
+    "posted_date": null,
+    "source_url": "https://careers.l3harris.com/en/search-jobs",
+    "title": "Specialist, Systems Engineer Engineering Colorado Springs, CO",
+    "url": "https://careers.l3harris.com/en/job/colorado-springs/specialist-systems-engineer/4832/103517374512",
+    "status": "archived",
+    "archived_at": "2026-11-24T00:26:13.713446+00:00"
+  },
+  {
+    "company": "Anduril",
+    "due_date": null,
+    "first_seen": "2026-08-09T14:56:43.428393+00:00",
+    "last_seen": "2026-11-24T00:26:13.713446+00:00",
+    "location": "Costa Mesa, California, United States",
+    "posted_date": "2026-08-07T10:44:28-04:00",
+    "source_url": "https://www.anduril.com/open-roles/",
+    "title": "Applied LLM Systems Engineer",
+    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5197253007?gh_jid=5197253007",
+    "status": "archived",
+    "archived_at": "2026-11-24T00:26:13.713446+00:00"
+  },
+  {
     "company": "Anduril",
     "due_date": null,
     "first_seen": "2026-11-19T21:02:48.659848+00:00",
